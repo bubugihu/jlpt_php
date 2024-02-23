@@ -932,7 +932,7 @@
             $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
             $('#submit_register').prop('disabled', true)
 
-            let url = "https://a509-101-99-33-243.ngrok-free.app/"
+            let url = "<?= $base_url ?>"
             $.ajax({
                 type: "POST",
                 data : formData,
@@ -942,7 +942,7 @@
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                 },
-                url: url + "api/create/",
+                url: url + "jlpt/api/create/",
                 async: false,
                 beforeSend: function(){
                     $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")

@@ -56,7 +56,7 @@ class PagesController extends AppController
     {
         $this->viewBuilder()->disableAutoLayout();
         $this->set('layout',false);
-
+        $this->set('base_url',env('BASE_URL', 'BASE_URL'));
         $list_products = $this->business_product->getListProduct([]);
         $this->set('list_products', $list_products);
         if ($this->request->is('ajax')) {
