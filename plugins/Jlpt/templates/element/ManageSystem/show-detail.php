@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="mb-3 row">
-                                <label class="col-3 col-form-label text-end"><?= __('From') ?> <span style="color: red">*</span></label>
+                                <label class="col-3 col-form-label text-end"><?= __('From') ?></label>
                                 <div class="col-8">
                                     <input type="text" class="form-control" value="<?php echo $data_request['where_from'] ?? '' ?>" name="where_from" id="where_from">
                                 </div>
@@ -211,9 +211,6 @@
                     required: true,
                 },
                 birthday_display: {
-                    required: true,
-                },
-                where_from: {
                     required: true,
                 },
                 exam: {

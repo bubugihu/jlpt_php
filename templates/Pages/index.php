@@ -335,9 +335,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-1.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic1.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-1.jpg">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic1.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -358,9 +358,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-2.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic2.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-2.jpg">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic2.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -381,9 +381,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-3.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic3.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-3.jpg">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic3.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -404,16 +404,16 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic4.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic4.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h4><a href="project-details.html">Bạn sẽ nhận được phiếu báo dự thi qua đường bưu điện, trước khi thi 1 tháng.</a></h4>
+                            <h4><a href="project-details.html">Bạn sẽ nhận được phiếu báo dự thi qua đường bưu điện, trước khi thi 2 tuần.</a></h4>
                             <div class="category">
                                 <div class="border-box"></div>
                                 <p>Bước 4</p>
@@ -427,7 +427,7 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic5.png" alt="Awesome Image">
                                 <div class="zoom-button">
                                     <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg">
                                         <i class="flaticon-plus"></i>
@@ -450,7 +450,7 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg" alt="Awesome Image">
+                                <img src="assets/images/slides/pic6.png" alt="Awesome Image">
                                 <div class="zoom-button">
                                     <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg">
                                         <i class="flaticon-plus"></i>
@@ -962,7 +962,6 @@
                         $('.span_submit_register').text("Gửi thông tin đăng kí")
                         $('#submit_register').prop('disabled', false)
                         modalAlert("Đăng kí thất bại. Vui lòng liên hệ admin để được hướng dẫn thêm.")
-                        formReset()
                     }, 3000);
                 }
             }); //end ajax

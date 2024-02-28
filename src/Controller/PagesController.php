@@ -49,41 +49,12 @@ class PagesController extends AppController
     public function initialize(): void
     {
         parent::initialize();
-        $this->business_order = new Orders();
-        $this->business_product = new Product();
     }
     public function index()
     {
         $this->viewBuilder()->disableAutoLayout();
         $this->set('layout',false);
         $this->set('base_url',env('BASE_URL', 'BASE_URL'));
-        $list_products = $this->business_product->getListProduct([]);
-        $this->set('list_products', $list_products);
-        if ($this->request->is('ajax')) {
-            $status = false;
-            $result_create_order = $this->business_order->createOrderZalo($_POST['array_form']);
-            if($result_create_order)
-            {
-                $result_create_quoting = $this->business_order->createQuotingZalo($_POST['array_form']);
-                if($result_create_quoting)
-                    $status = true;
-            }
-//            //save excel
-//            $htmlString = $_POST['html_message'];
-//
-//            $reader = new \PhpOffice\PhpSpreadsheet\Reader\Html();
-//            $spreadsheet = $reader->loadFromString($htmlString);
-//
-//            $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xls');
-//            $writer->save('write.xls');
-
-            return $this->response->withStringBody(json_encode(compact('status')));
-        }
-    }
-
-    public function landing()
-    {
-
     }
 
     public function display(string ...$path): ?Response

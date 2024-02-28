@@ -2,7 +2,7 @@
 
 namespace Jlpt\Controller;
 
-use App\Controller\AppController;
+use \Jlpt\Controller\AppController;
 use Cake\Log\Log;
 use Jlpt\Library\Business\ManageSystem;
 
