@@ -58,7 +58,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="assets/images/about/logo.png" sizes="32x32">
     <link rel="icon" type="image/png" href="assets/images/about/logo.png" sizes="16x16">
-
+    <style>
+        .follow_area{
+            position: fixed;
+            z-index: 1000;
+            text-align: center;
+            right: 0 !important;
+            bottom: 8px;
+            width: 100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -841,6 +850,13 @@
         </div>
     </div>
 </div>
+
+<div class="follow_area">
+    <a style="text-decoration: none" href="https://m.me/645037279298053">
+        <img src="assets/images/icon/messenger.png" alt="Awesome Image" width="40">
+    </a>
+</div>
+
 <script>
     function modalAlert(message) {
         $("#messageAlertModal").empty().append(message)
