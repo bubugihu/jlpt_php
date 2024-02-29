@@ -10,6 +10,9 @@
     <meta property="og:type" content="Website" />
     <meta property="og:url" content="https://nanglucnhatngu-jlpt.online/" />
     <meta property="og:description" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
+    <meta property="og:image" content="https://nanglucnhatngu-jlpt.online/assets/images/about/logo.png">
+    <meta property="og:image:width" content="550">
+    <meta property="og:image:height" content="420">
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
