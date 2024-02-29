@@ -856,7 +856,7 @@
 
 <div class="follow_area">
     <a style="text-decoration: none" href="https://m.me/645037279298053">
-        <img src="assets/images/icon/messenger.png" alt="Awesome Image" width="40">
+        <img src="assets/images/about/messenger.png" alt="Awesome Image" width="40">
     </a>
 </div>
 
