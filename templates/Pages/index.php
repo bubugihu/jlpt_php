@@ -63,6 +63,7 @@
     <link rel="icon" type="image/png" href="assets/images/about/logo.png" sizes="16x16">
     <style>
         .follow_area{
+            display:none;
             position: fixed;
             z-index: 1000;
             text-align: center;
