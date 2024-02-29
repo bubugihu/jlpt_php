@@ -74,7 +74,7 @@ class ManageSystem extends Entity
 
             $id = $params['id'];
             unset($params['id']);
-
+            $params['code'] = $params['phone'] . substr($params['cccd'], -3);
             $this->model_customers->updateAll($params, ['id'=>$id]);
 
             if(!empty($params['is_write']) && !empty($params['exam']))
@@ -104,6 +104,7 @@ class ManageSystem extends Entity
                 $params['avatar'] = $pic;
             }
 
+            $params['code'] = $params['phone'] . substr($params['cccd'], -3);
             $new = $this->model_customers->newEntity($params);
             $new = $this->model_customers->save($new);
         }catch (\Exception $e)

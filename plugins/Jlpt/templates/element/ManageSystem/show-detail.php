@@ -73,6 +73,12 @@
                                 </div>
                             </div>
                             <div class="mb-3 row">
+                                <label class="col-3 col-form-label text-end"><?= __('CCCD') ?> <span style="color: red">*</span></label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" value="<?php echo $data_request['cccd'] ?? '' ?>" name="cccd" id="cccd">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
                                 <label class="col-3 col-form-label text-end"><?= __('From') ?></label>
                                 <div class="col-8">
                                     <input type="text" class="form-control" value="<?php echo $data_request['where_from'] ?? '' ?>" name="where_from" id="where_from">
@@ -147,6 +153,12 @@
                 <div class="col-6">
                     <div class="row">
                         <div class="col-12">
+                            <div class="mb-3 row">
+                                <label class="col-3 col-form-label text-end"><?= __('Code Number') ?></label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" value="<?= $data_request['code_number'] ?? '' ?>" name="code_number" id="code_number">
+                                </div>
+                            </div>
                             <div class="mb-3 row">
                                 <label class="col-3 col-form-label text-end"><?= __('Phone') ?></label>
                                 <div class="col-8">

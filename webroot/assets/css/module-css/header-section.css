@@ -3,7 +3,7 @@
 
 
 /*==============================================
-    Main Header Css        
+    Main Header Css
 ===============================================*/
 .main-header {
 	position: absolute;
@@ -63,7 +63,7 @@
 .sticky-header .logo {
     position: relative;
     display: block;
-    padding: 23px 0 24px;
+    padding: 5px 0 5px;
 }
 .sticky-header .logo a{
     position: relative;
@@ -170,14 +170,14 @@
 }
 .header-contact-info ul li .text h6{
     color: #fff;
-    font-size: 15px; 
-    font-weight: 400;   
+    font-size: 15px;
+    font-weight: 400;
 }
 .header-contact-info ul li .text h6 a{
     color: #fff;
     -webkit-transition: all 0.4s linear;
     -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;        
+    transition: all 0.4s linear;
 }
 .header-contact-info ul li .text h6 a:hover{
     color: var(--thm-base);
@@ -187,7 +187,7 @@
 .header-top__right{
     position: relative;
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 .header-social-link{
     position: relative;
@@ -215,7 +215,7 @@
     color: #93969b;
     font-size: 15px;
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .header-social-link .social-link ul li a:hover{
     color: var(--thm-base);
@@ -248,7 +248,7 @@
     font-size: 15px;
     font-weight: 400;
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .signin-box a span:before {
     position: relative;
@@ -360,7 +360,7 @@
     color: var(--thm-base);
 }
 .main-menu .navigation>li.dropdown>a {
-    padding-right: 15px;    
+    padding-right: 15px;
 }
 .main-menu .navigation>li.dropdown>a:after {
     position: absolute;
@@ -431,7 +431,7 @@
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .main-menu .navigation> li:hover> ul> li{
     opacity: 1;
@@ -495,7 +495,7 @@
 }
 .main-menu .navigation> li> ul> li:last-child> a{
     border: none;
-} 
+}
 .main-menu .navigation> li> ul> li> a:before{
     font-family: FontAwesome;
     content: "\f105";
@@ -513,12 +513,12 @@
     transform: scaleX(1.0);
 }
 .main-menu .navigation> li> ul> li> a:hover{
-    color: #f0ebeb; 
-    padding-left: 15px; 
+    color: #f0ebeb;
+    padding-left: 15px;
 }
 .main-menu .navigation> li> ul> li:hover > a {
-    color: #f0ebeb; 
-    padding-left: 15px; 
+    color: #f0ebeb;
+    padding-left: 15px;
 }
 .main-menu .navigation> li> ul> li.dropdown a{}
 .main-menu .navigation> li> ul> li.dropdown> a:after {
@@ -584,7 +584,7 @@
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 .main-menu .navigation> li> ul> li> ul> li {
 	position: relative;
@@ -596,7 +596,7 @@
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .main-menu .navigation> li> ul> li:hover> ul> li{
     opacity: 1;
@@ -646,7 +646,7 @@
     border: none;
 }
 .main-menu .navigation> li> ul> li> ul> li> a:hover {
-    color: #f0ebeb; 
+    color: #f0ebeb;
     padding-left: 15px;
 }
 .main-menu .navigation> li> ul> li> ul> li> a:before{
@@ -691,7 +691,7 @@
 }
 .main-menu .navigation> li> .megamenu .row{
     margin-right: 0px;
-    margin-left: 0px;    
+    margin-left: 0px;
 }
 .main-menu .navigation> li> .megamenu .row [class*=col-] {
     padding-left: 0px;
@@ -738,7 +738,7 @@
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     transition: all 200ms linear;
-    transition-delay: 0.1s;     
+    transition-delay: 0.1s;
 }
 .main-menu .navigation> li:hover .megamenu li{
     opacity: 1;
@@ -809,9 +809,9 @@
 }
 .main-menu .navigation> li> .megamenu li:last-child a{
     border: none;
-} 
+}
 .main-menu .navigation> li> .megamenu li> a:hover {
-    color: #f0ebeb; 
+    color: #f0ebeb;
     padding-left: 15px;
 }
 .main-menu .navigation> li> .megamenu li> a:before{
@@ -883,13 +883,13 @@
 
 
 
-/*** 
+/***
 =====================================================
 	Main Header style Two Css
 =====================================================
 ***/
 .header-style-two {
-   
+
 }
 
 .header-style2{
@@ -904,7 +904,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 .header-style2__left {
     position: relative;
@@ -984,7 +984,7 @@
     text-align: center;
     line-height: 43px;
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .header-contact-info--two ul li:hover .inner .icon{
     color: #ffffff;
@@ -1005,7 +1005,7 @@
     transition: all 0.4s cubic-bezier(0.62, 0.21, 0.45, 1.52);
 }
 .header-contact-info--two ul li:hover .inner .icon:before{
-    transform: scaleX(1.0);     
+    transform: scaleX(1.0);
 }
 .header-contact-info--two ul li .inner .icon span:before{
     position: relative;
@@ -1027,7 +1027,7 @@
     color: #808080;
     font-size: 17px;
     transition: all 200ms linear;
-    transition-delay: 0.1s; 
+    transition-delay: 0.1s;
 }
 .header-contact-info--two ul li .inner .title a:hover{
     color: var(--thm-base);
@@ -1052,10 +1052,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     background: #051320;
     padding-left: 30px;
-    padding-right: 15px; 
+    padding-right: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -1075,7 +1075,7 @@
     font-weight: 600;
     padding: 20px 0px 20px;
 }
-.main-menu.style2 .navigation>li:hover>a, 
+.main-menu.style2 .navigation>li:hover>a,
 .main-menu.style2 .navigation>li.current>a {
     color: var(--thm-base);
 }
@@ -1136,8 +1136,8 @@
 }
 
 
-  
-/*** 
+
+/***
 =====================================================
 	Main Header style Three Css
 =====================================================

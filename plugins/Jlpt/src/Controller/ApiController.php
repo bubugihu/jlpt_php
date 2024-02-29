@@ -35,7 +35,7 @@ class ApiController extends AppController
     public function search()
     {
         if($this->getRequest()->is('post')) {
-            $data = $this->business_manage_system->getByRequest(['phone'=>$_POST['phone']]);
+            $data = $this->business_manage_system->getByRequest(['code'=>$_POST['code']]);
             if(empty($data))
             {
                 $content = null;

@@ -1,0 +1,144 @@
+.navi {
+	width: 500px;
+	margin: 5px;
+	padding:2px 5px;
+	border:1px solid #eee;
+	}
+
+	.show {
+	color: blue;
+	margin: 5px 0;
+	padding: 3px 5px;
+	cursor: pointer;
+	font: 15px/19px Arial,Helvetica,sans-serif;
+	}
+	.show a {
+	text-decoration: none;
+	}
+	.show:hover {
+	text-decoration: underline;
+	}
+
+
+	ul.setPaginate li.setPage{
+	padding:10px 10px;
+	font-size:14px;
+	}
+
+	ul.setPaginate{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	overflow:hidden;
+	font:12px 'Tahoma';
+	list-style-type:none;
+	}
+
+	ul.setPaginate li.dot{padding: 3px 0;}
+
+	ul.setPaginate li{
+	float:left;
+	margin:0px;
+	padding:0px;
+	margin-left:5px;
+	}
+
+
+
+	ul.setPaginate li a
+	{
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #cccccc;
+	color: #999999;
+	display: inline-block;
+	font: 15px/25px Arial,Helvetica,sans-serif;
+	margin: 5px 3px 0 0;
+	padding: 0 5px;
+	text-align: center;
+	text-decoration: none;
+	}
+
+	ul.setPaginate li a:hover,
+	ul.setPaginate li a.current_page
+	{
+	background: none repeat scroll 0 0 #0d92e1;
+	border: 1px solid #000000;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+	ul.setPaginate li a{
+	color:black;
+	display:block;
+	text-decoration:none;
+	padding:0px 5px;
+	text-decoration: none;
+	}
+
+    .form-control.is-invalid{
+    border-color: #dc3545;
+    }
+
+    .form-control.is-invalid+span.select2-container span.select2-selection.select2-selection--single{
+    border-color: #dc3545;
+    }
+
+    .invalid-message{
+    color: #dc3545;
+    }
+/* Lớp chính của card */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+/* Header của card */
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Body của card */
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+/* Footer của card */
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Tự động điều chỉnh chiều cao của card */
+.card-deck {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Các hiệu ứng hover và focus cho card */
+.card:hover,
+.card:focus {
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}

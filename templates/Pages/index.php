@@ -8,7 +8,7 @@
     <meta content="jlpt, tphcm" name="keywords" />
     <meta property="og:title" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
     <meta property="og:type" content="Website" />
-    <meta property="og:url" content="https://bavuongbui.github.io/jlpt/" />
+    <meta property="og:url" content="https://nanglucnhatngu-jlpt.online/" />
     <meta property="og:description" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@
 
     <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=2">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/favicon/favicon-32x32.png" sizes="32x32">
@@ -111,7 +111,7 @@
                 <div class="outer-box">
                     <div class="header-left">
                         <div class="logo">
-                            <a href="index.html"><img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/resources/logo.png" alt="Awesome Logo" title=""></a>
+                            <a href="/"><img src="assets/images/about/logo.png" alt="JLPT" title=""></a>
                         </div>
                     </div>
 
@@ -158,7 +158,7 @@
                 <div class="clearfix">
                     <!--Logo-->
                     <div class="logo float-left">
-                        <a href="index.html" class="img-responsive"><img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/resources/sticky-logo.png" alt="" title=""></a>
+                        <a href="/" class="img-responsive"><img src="assets/images/about/logo.png" alt="jlpt" title=""></a>
                     </div>
                     <!--Right Col-->
                     <div class="right-col float-right">
@@ -295,12 +295,6 @@
     <!--Start Slogan Area-->
     <section class="slogan-area">
         <div class="slogan-area__bg" style="background-image: url(assets/images/shape/slogan-area-bg.jpg);"></div>
-        <div class="shape wow slideInLeft" data-wow-delay="500ms" data-wow-duration="4500ms">
-            <img class="float-bob-x" src="https://mehedi.asiandevelopers.com/hoppex/assets/images/shape/house-1.png" alt="">
-        </div>
-        <div class="shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="3500ms">
-            <img class="float-bob-y" src="https://mehedi.asiandevelopers.com/hoppex/assets/images/shape/shape-1.png" alt="">
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-right-rtl">
@@ -561,16 +555,16 @@
                                 <div class="row">
                                     <div class="col-xl-6">
                                         <div class="input-box">
-                                            <label>Nhập Tên (viet in hoa, không dấu) <span style="color: red">*</span> </label>
-                                            <input type="text" name="first_name" id="first_name" value="" placeholder="A" required="">
-                                            <label id="first_name-error" class="error error-form" for="first_name">This field is required.</label>
+                                            <label>Nhập Họ và tên đệm (viet in hoa, không dấu)<span style="color: red">*</span></label>
+                                            <input type="text" name="last_name" id="last_name" value="" placeholder="NGUYEN VAN" required="">
+                                            <label id="last_name-error" class="error error-form" for="last_name">This field is required.</label>
                                         </div>
                                     </div>
                                     <div class="col-xl-6">
                                         <div class="input-box">
-                                            <label>Nhập Họ và tên đệm (viet in hoa, không dấu)<span style="color: red">*</span></label>
-                                            <input type="text" name="last_name" id="last_name" value="" placeholder="NGUYEN VAN" required="">
-                                            <label id="last_name-error" class="error error-form" for="last_name">This field is required.</label>
+                                            <label>Nhập Tên (viet in hoa, không dấu) <span style="color: red">*</span> </label>
+                                            <input type="text" name="first_name" id="first_name" value="" placeholder="A" required="">
+                                            <label id="first_name-error" class="error error-form" for="first_name">This field is required.</label>
                                         </div>
                                     </div>
                                 </div>
@@ -585,7 +579,7 @@
                                     <div class="col-xl-6">
                                         <div class="input-box">
                                             <labe>Nhập năm, tháng, ngày sinh<span style="color: red">*</span></labe>
-                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="year/month/day" required="">
+                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="2000/31/01" required="">
                                             <label id="birthday_display-error" class="error error-form" for="birthday_display">This field is required.</label>
                                         </div>
                                     </div>
@@ -612,7 +606,7 @@
                                             <label>Gửi ảnh chụp rõ mặt (ví dụ như ảnh dưới)<span style="color: red">*</span></label>
                                             <input type="file" name="avatar" id="avatar" value="" placeholder="" required="">
                                             <label id="avatar-error" class="error error-form" for="avatar">This field is required.</label>
-                                            <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg" class="img-fluid mt-4"  width="100" height="200"/>
+                                            <img src="assets/images/slides/chandung.jfif" class="img-fluid mt-4"  width="100" height="200"/>
                                         </div>
                                     </div>
                                     <div class="col-xl-6">
@@ -620,11 +614,18 @@
                                             <label>Gửi ảnh mặt trước CCCD hoặc Hộ chiếu<span style="color: red">*</span></label>
                                             <input type="file" name="pic" value="" id="pic" placeholder="" required="">
                                             <label id="pic-error" class="error error-form" for="pic">This field is required.</label>
-                                            <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg" class="img-fluid mt-4"  width="100" height="200"/>
+                                            <img src="assets/images/slides/cccd.png" class="img-fluid mt-4"  width="100" height="200"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="input-box">
+                                            <label>Nhập số CCCD<span style="color: red">*</span></label>
+                                            <input type="text" name="cccd" id="cccd" value="" placeholder="012345678910" required="">
+                                            <label id="cccd-error" class="error error-form" for="cccd">This field is required.</label>
+                                        </div>
+                                    </div>
                                     <div class="col-xl-12 text-center">
                                         <div class="input-box two">
                                             <label>Nhập địa chỉ nhận phiếu báo thi</label>
@@ -653,22 +654,16 @@
 
     <!--Start footer area -->
     <footer class="footer-area">
-        <div class="shape3 wow slideInLeft" data-wow-delay="500ms" data-wow-duration="7500ms">
-            <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/shape/shape-round-3.png" alt="">
-        </div>
-        <div class="shape4 wow slideInRight" data-wow-delay="1000ms" data-wow-duration="6500ms">
-            <img src="https://mehedi.asiandevelopers.com/hoppex/assets/images/shape/shape-round-4.png" alt="">
-        </div>
         <div class="subscribe-cotent-box">
             <div class="container">
                 <div class="row text-right-rtl">
                     <div class="col-xl-6 col-lg-6">
                         <div class="subscribe-box">
                             <div class="inner-title">
-                                <h2>Nhập số đt đăng ký để kiểm tra thông tin đã đăng ký.</h2>
+                                <h2>Nhập số đt + 3 số cuối cccd đã đăng ký để kiểm tra thông tin.</h2>
                             </div>
                             <form class="subscribe-form" action="#">
-                                <input type="text" name="search_phone" id="search_phone" placeholder="Số đt">
+                                <input type="text" name="search_phone" id="search_phone" placeholder="Số đt + 3 số cuối cccd">
                                 <label id="search_phone-error" class="error error-form" style="display: none;color: red;" for="search_phone">This field is required.</label>
                                 <button id="btn-search" class="btn-one search-toggler" type="button"><span class="txt btn-txt">Kiểm tra</span></button>
                             </form>
@@ -676,11 +671,7 @@
                     </div>
 
                     <div class="col-xl-6 col-lg-6">
-                        <div class="subscribe-box-house wow slideInRight" data-wow-delay="500ms" data-wow-duration="4500ms">
-                            <div class="inner float-bob-y">
-                                <img class="paroller" src="https://mehedi.asiandevelopers.com/hoppex/assets/images/shape/house-2.png" alt="">
-                            </div>
-                        </div>
+
                     </div>
 
                 </div>
@@ -812,7 +803,7 @@
     <div class="modal-dialog modal-md modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5 text-center">Alert Dialog</h1>
+                <h1 class="modal-title fs-5 text-center">Thông báo</h1>
             </div>
             <div class="modal-body">
                 <p id="messageAlertModal" class="text-center"></p>
@@ -870,13 +861,10 @@
 <script src="assets/js/tilt.jquery.js"></script>
 
 
-
-<!-- thm custom script -->
-<script src="assets/js/custom.js"></script>
-
 <script>
     $(document).ready(function(){
-        let array_form = ['first_name','last_name','level','birthday_display','where_from','phone','pic','avatar'];
+        const URL = "<?= $base_url ?>"
+        let array_form = ['first_name','last_name','level','birthday_display','where_from','phone','pic','avatar', 'cccd'];
         function formValid()
         {
             let flag = true;
@@ -908,6 +896,7 @@
             $('#pic').val("")
             $('#avatar').val("")
             $('#addr').text("")
+            $('#cccd').val("")
         }
 
         $('#submit_register').click(function(){
@@ -927,12 +916,12 @@
             formData.append('where_from', $('#where_from').val());
             formData.append('phone', $('#phone').val());
             formData.append('addr', $('#addr').val());
+            formData.append('cccd', $('#cccd').val());
             formData.append('exam', "202407");
 
             $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
             $('#submit_register').prop('disabled', true)
 
-            let url = "<?= $base_url ?>"
             $.ajax({
                 type: "POST",
                 data : formData,
@@ -942,7 +931,7 @@
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                 },
-                url: url + "jlpt/api/create/",
+                url: URL + "jlpt/api/create/",
                 async: false,
                 beforeSend: function(){
                     $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
@@ -968,6 +957,7 @@
         });
     })
 </script>
-
+<!-- thm custom script -->
+<script src="assets/js/custom.js?v=3"></script>
 </body>
 </html>

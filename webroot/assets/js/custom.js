@@ -692,17 +692,17 @@ if($('#search-popup').length){
     $('.search-toggler').on('click', function() {
         $('#btn-search').prop('disabled',true)
         $('.btn-txt').text("Đang kiểm tra.")
-        let phone = $('#search_phone').val()
-        
+        let code = $('#search_phone').val()
+
         // let url = "https://a509-101-99-33-243.ngrok-free.app/"
-        let url = "http://manage.local/"
+        let URL = "http://jlpt.local/"
             $.ajax({
                 type: "POST",
-                data: { phone: phone},
+                data: { code: code},
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                 },
-                url: url + "api/search/",
+                url: URL + "jlpt/api/search/",
                 async: false,
                 beforeSend: function(){
                    $('#btn-search').prop('disabled',true)

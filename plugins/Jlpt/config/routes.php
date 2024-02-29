@@ -9,6 +9,7 @@ return static function (RouteBuilder $routes) {
         function (RouteBuilder $builder) {
             $builder->setRouteClass(DashedRoute::class);
             $builder->connect('/', ['controller' => 'ManageSystem', 'action' => 'index']);
+            $builder->connect('/login/*', ['controller' => 'Login', 'action' => 'index']);
             $builder->fallbacks();
         }
     );

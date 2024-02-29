@@ -25,7 +25,7 @@
                     <i class="fa-regular fa-floppy-disk"></i>
                     <?= __('Save') ?>
                 </button>
-                <a href="/manage-system/" class="btn btn-danger mx-2 rounded-0" id="cancel">
+                <a href="/jlpt/manage-system/" class="btn btn-danger mx-2 rounded-0" id="cancel">
                     <i class="fa-solid fa-xmark"></i>
                     <?= __('Cancel') ?>
                 </a>

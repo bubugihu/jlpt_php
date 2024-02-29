@@ -7,4 +7,19 @@ use App\Controller\AppController as BaseController;
 
 class AppController extends BaseController
 {
+    public function initialize(): void
+    {
+        parent::initialize();
+        $controller = $this->request->getParam('controller');
+        if($controller != "Login")
+        {
+            if(!empty($_COOKIE['login']))
+            {
+                setcookie("login", $_COOKIE['login'], time() + 86400, '/');
+            }else{
+                header('Location: ' . BASE_URL . 'jlpt/login/');
+                exit;
+            }
+        }
+    }
 }

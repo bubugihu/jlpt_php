@@ -65,7 +65,7 @@ class ManageSystemController extends AppController
             if($id = $this->business_manage_system->create($_POST, $_FILES))
             {
                 $this->Flash->success("Successfully.");
-                $this->redirect("/manage-system/view/$id");
+                $this->redirect("/jlpt/manage-system/view/$id");
             }else{
                 $this->Flash->error("Failed.");
             }
@@ -80,7 +80,7 @@ class ManageSystemController extends AppController
         }else{
             $this->Flash->error("Failed.");
         }
-        return $this->redirect('/manage-system/');
+        return $this->redirect('/jlpt/manage-system/');
     }
 
     public function export($output_type = 'D', $file = 'my_spreadsheet.xlsx')
@@ -173,6 +173,6 @@ class ManageSystemController extends AppController
                 $this->Flash->error(__("Failed not xlsx"));
             }
         }
-        return $this->redirect('/manage-system/');
+        return $this->redirect('/jlpt/manage-system/');
     }
 }

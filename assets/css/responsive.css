@@ -4491,4 +4491,8 @@ select:focus {
     padding: 0 0px 30px;
 }
 
-
+@media screen and (max-width: 999px) {
+    div.logo {
+        display: none !important;
+    }
+}
