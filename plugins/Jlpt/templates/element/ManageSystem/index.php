@@ -27,7 +27,7 @@
                                         <?= __('Import EXCEL') ?>
                                     </label>
                                     <?= $this->Form->create(null, [
-                                        'url' => '/manage-system/import',
+                                        'url' => '/jlpt/manage-system/import',
                                         'method' => 'post',
                                         'id' => 'uploadFile',
                                         'class' => ['d-none'],

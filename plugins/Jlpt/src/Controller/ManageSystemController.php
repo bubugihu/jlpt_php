@@ -37,7 +37,6 @@ class ManageSystemController extends AppController
 
         $list_customer = $this->business_manage_system->getList($key_search, $key_write, $key_payment,$key_exam, $page, false);
         $paginate = $this->Common->displayPaginationBelow(LIMIT, $page, $list_customer->count(), $arr);
-
         $this->set('list_customers',$list_customer->all()->toList());
         $this->set('paginate',$paginate);
         $data_request = !empty($list_customer->all()->toList()) ? $list_customer->all()->toList()[0] : [];
@@ -125,7 +124,7 @@ class ManageSystemController extends AppController
                         $params = [];
                         foreach ($dataInput as $key => $value)
                         {
-                            if($key == 0)
+                            if($key < 4)
                             {
                                 continue;
                             }
@@ -133,22 +132,27 @@ class ManageSystemController extends AppController
                             {
                                 break;
                             }
+
                             $params[$key]['code'] = $value['B'];
                             $params[$key]['first_name'] = $value['C'];
                             $params[$key]['last_name'] = $value['D'];
                             $params[$key]['year'] = $value['E'];
                             $params[$key]['month'] = $value['F'];
                             $params[$key]['day'] = $value['G'];
-                            $params[$key]['gender'] = $value['H'];
+                            $params[$key]['gender'] = $value['H'] == "NAM" ? 0 : 1;
                             $params[$key]['cccd'] = $value['I'];
                             $params[$key]['phone'] = $value['J'];
                             $params[$key]['email'] = $value['K'];
                             $params[$key]['level'] = $value['L'];
-                            $params[$key]['where_from'] = $value['M'];
-                            $params[$key]['exam'] = $value['N'];
-                            $params[$key]['referral'] = $value['O'];
-                            $params[$key]['pic'] = $value['P'];
-                            $params[$key]['avatar'] = $value['Q'];
+                            $params[$key]['exam'] = "202407";
+                            $params[$key]['is_write'] = 1;
+                            $params[$key]['is_payment'] = 1;
+                            $params[$key]['is_picture'] = 1;
+//                            $params[$key]['where_from'] = $value['M'];
+//                            $params[$key]['exam'] = $value['N'];
+//                            $params[$key]['referral'] = $value['O'];
+//                            $params[$key]['pic'] = $value['P'];
+//                            $params[$key]['avatar'] = $value['Q'];
 
                         }
                         if($this->business_manage_system->saveList($params))

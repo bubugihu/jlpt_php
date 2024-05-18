@@ -47,12 +47,12 @@ class ManageSystem extends Entity
         }
 
         $order = [
-          'is_write'    =>  "ASC",
-          'is_payment'    =>  "ASC",
-          'is_picture'    =>  "ASC",
-          'level'    =>  "ASC",
-          'first_name'    =>  "ASC",
-          'last_name'    =>  "ASC",
+              'is_write'    =>  "ASC",
+              'is_payment'    =>  "ASC",
+              'is_picture'    =>  "ASC",
+              'level'    =>  "ASC",
+            'last_name'    =>  "ASC",
+            'first_name'    =>  "ASC",
         ];
         return $this->model_customers->getData($page, $condition, [], [], $order, $export);
     }
@@ -105,6 +105,7 @@ class ManageSystem extends Entity
             }
 
             $params['code'] = $params['phone'] . substr($params['cccd'], -3);
+            $params['del_flag'] = UNDEL;
             $new = $this->model_customers->newEntity($params);
             $new = $this->model_customers->save($new);
         }catch (\Exception $e)
@@ -151,6 +152,7 @@ class ManageSystem extends Entity
         }catch (\Exception $e)
         {
             Log::error($e->getMessage());
+            dd($e->getMessage());
             return false;
         }
         return true;

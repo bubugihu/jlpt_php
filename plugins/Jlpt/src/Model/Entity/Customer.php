@@ -17,7 +17,7 @@ class Customer extends  Entity
     ];
     protected function _getFullNameDisplay()
     {
-        return strtoupper($this->last_name . " " . $this->first_name);
+        return strtoupper($this->first_name . " " . $this->last_name);
     }
 
     protected function _getExamDisplay()
