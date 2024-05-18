@@ -694,8 +694,7 @@ if($('#search-popup').length){
         $('.btn-txt').text("Đang kiểm tra.")
         let code = $('#search_phone').val()
 
-        // let url = "https://a509-101-99-33-243.ngrok-free.app/"
-        let URL = "http://jlpt.local/"
+        let URL = "https://nanglucnhatngu-jlpt.online/"
             $.ajax({
                 type: "POST",
                 data: { code: code},
