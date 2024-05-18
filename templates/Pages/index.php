@@ -577,115 +577,115 @@
     <!--End Testimonials Style2 area -->
 
     <!--Start Main Contact Form Area-->
-    <section id="contact" class="mt-4 main-contact-form-area">
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <p>Form đăng ký</p>
-                </div>
-                <h2>Điền đầy đủ thông tin</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="contact-style1_form">
-                        <div class="contact-form">
-                            <form id="contact-form" name="contact_form" class="default-form2" action="" method="post">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập Họ và tên đệm (viet in hoa, không dấu)<span style="color: red">*</span></label>
-                                            <input type="text" name="last_name" id="last_name" value="" placeholder="NGUYEN VAN" required="">
-                                            <label id="last_name-error" class="error error-form" for="last_name">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập Tên (viet in hoa, không dấu) <span style="color: red">*</span> </label>
-                                            <input type="text" name="first_name" id="first_name" value="" placeholder="A" required="">
-                                            <label id="first_name-error" class="error error-form" for="first_name">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập cấp độ thi<span style="color: red">*</span></label>
-                                            <input type="text" name="level" id="level" value="" placeholder="N5" required="">
-                                            <label id="level-error" class="error error-form" for="level">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <labe>Nhập năm, tháng, ngày sinh<span style="color: red">*</span></labe>
-                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="2000/31/01" required="">
-                                            <label id="birthday_display-error" class="error error-form" for="birthday_display">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập quê quán<span style="color: red">*</span></label>
-                                            <input type="text" name="where_from" id="where_from" value="" placeholder="TPHCM" required="">
-                                            <label id="where_from-error" class="error error-form" for="where_from">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <labe>Nhập số đt<span style="color: red">*</span></labe>
-                                            <input type="text" name="phone" id="phone" value="" placeholder="0909113114" required="">
-                                            <label id="phone-error" class="error error-form" for="phone">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Gửi ảnh chụp rõ mặt (ví dụ như ảnh dưới)<span style="color: red">*</span></label>
-                                            <input type="file" name="avatar" id="avatar" value="" placeholder="" required="">
-                                            <label id="avatar-error" class="error error-form" for="avatar">This field is required.</label>
-                                            <img src="assets/images/slides/chandung.jfif" class="img-fluid mt-4"  width="100" height="200"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Gửi ảnh mặt trước CCCD hoặc Hộ chiếu<span style="color: red">*</span></label>
-                                            <input type="file" name="pic" value="" id="pic" placeholder="" required="">
-                                            <label id="pic-error" class="error error-form" for="pic">This field is required.</label>
-                                            <img src="assets/images/slides/cccd.png" class="img-fluid mt-4"  width="100" height="200"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập số CCCD<span style="color: red">*</span></label>
-                                            <input type="text" name="cccd" id="cccd" value="" placeholder="012345678910" required="">
-                                            <label id="cccd-error" class="error error-form" for="cccd">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 text-center">
-                                        <div class="input-box two">
-                                            <label>Nhập địa chỉ nhận phiếu báo thi</label>
-                                            <textarea name="addr" id="addr" placeholder="123 Điện biên phủ, quận 3, TPHCM"></textarea>
-                                        </div>
-                                        <div class="button-box">
-                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                            <button class="btn-one" id="submit_register" type="button" data-loading-text="Please wait...">
-                                                <span class="txt span_submit_register">Gửi thông tin đăng kí</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+<!--    <section id="contact" class="mt-4 main-contact-form-area">-->
+<!--        <div class="container">-->
+<!--            <div class="sec-title text-center">-->
+<!--                <div class="sub-title">-->
+<!--                    <p>Form đăng ký</p>-->
+<!--                </div>-->
+<!--                <h2>Điền đầy đủ thông tin</h2>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-xl-12">-->
+<!--                    <div class="contact-style1_form">-->
+<!--                        <div class="contact-form">-->
+<!--                            <form id="contact-form" name="contact_form" class="default-form2" action="" method="post">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Nhập Họ và tên đệm (viet in hoa, không dấu)<span style="color: red">*</span></label>-->
+<!--                                            <input type="text" name="last_name" id="last_name" value="" placeholder="NGUYEN VAN" required="">-->
+<!--                                            <label id="last_name-error" class="error error-form" for="last_name">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Nhập Tên (viet in hoa, không dấu) <span style="color: red">*</span> </label>-->
+<!--                                            <input type="text" name="first_name" id="first_name" value="" placeholder="A" required="">-->
+<!--                                            <label id="first_name-error" class="error error-form" for="first_name">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Nhập cấp độ thi<span style="color: red">*</span></label>-->
+<!--                                            <input type="text" name="level" id="level" value="" placeholder="N5" required="">-->
+<!--                                            <label id="level-error" class="error error-form" for="level">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <labe>Nhập năm, tháng, ngày sinh<span style="color: red">*</span></labe>-->
+<!--                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="2000/31/01" required="">-->
+<!--                                            <label id="birthday_display-error" class="error error-form" for="birthday_display">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Nhập quê quán<span style="color: red">*</span></label>-->
+<!--                                            <input type="text" name="where_from" id="where_from" value="" placeholder="TPHCM" required="">-->
+<!--                                            <label id="where_from-error" class="error error-form" for="where_from">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <labe>Nhập số đt<span style="color: red">*</span></labe>-->
+<!--                                            <input type="text" name="phone" id="phone" value="" placeholder="0909113114" required="">-->
+<!--                                            <label id="phone-error" class="error error-form" for="phone">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Gửi ảnh chụp rõ mặt (ví dụ như ảnh dưới)<span style="color: red">*</span></label>-->
+<!--                                            <input type="file" name="avatar" id="avatar" value="" placeholder="" required="">-->
+<!--                                            <label id="avatar-error" class="error error-form" for="avatar">This field is required.</label>-->
+<!--                                            <img src="assets/images/slides/chandung.jfif" class="img-fluid mt-4"  width="100" height="200"/>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Gửi ảnh mặt trước CCCD hoặc Hộ chiếu<span style="color: red">*</span></label>-->
+<!--                                            <input type="file" name="pic" value="" id="pic" placeholder="" required="">-->
+<!--                                            <label id="pic-error" class="error error-form" for="pic">This field is required.</label>-->
+<!--                                            <img src="assets/images/slides/cccd.png" class="img-fluid mt-4"  width="100" height="200"/>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-xl-6">-->
+<!--                                        <div class="input-box">-->
+<!--                                            <label>Nhập số CCCD<span style="color: red">*</span></label>-->
+<!--                                            <input type="text" name="cccd" id="cccd" value="" placeholder="012345678910" required="">-->
+<!--                                            <label id="cccd-error" class="error error-form" for="cccd">This field is required.</label>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-xl-12 text-center">-->
+<!--                                        <div class="input-box two">-->
+<!--                                            <label>Nhập địa chỉ nhận phiếu báo thi</label>-->
+<!--                                            <textarea name="addr" id="addr" placeholder="123 Điện biên phủ, quận 3, TPHCM"></textarea>-->
+<!--                                        </div>-->
+<!--                                        <div class="button-box">-->
+<!--                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">-->
+<!--                                            <button class="btn-one" id="submit_register" type="button" data-loading-text="Please wait...">-->
+<!--                                                <span class="txt span_submit_register">Gửi thông tin đăng kí</span>-->
+<!--                                            </button>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!---->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <!--End Main Contact Form Area-->
 
 
@@ -698,10 +698,10 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="subscribe-box">
                             <div class="inner-title">
-                                <h2>Nhập số đt + 3 số cuối cccd đã đăng ký để kiểm tra thông tin.</h2>
+                                <h2>Nhập số cccd hoặc số hộ chiếu hoặc bằng lái xe đã đăng ký để kiểm tra thông tin.</h2>
                             </div>
                             <form class="subscribe-form" action="#">
-                                <input type="text" name="search_phone" id="search_phone" placeholder="Số đt + 3 số cuối cccd">
+                                <input type="text" name="search_phone" id="search_phone" placeholder="Số cccd">
                                 <label id="search_phone-error" class="error error-form" style="display: none;color: red;" for="search_phone">This field is required.</label>
                                 <button id="btn-search" class="btn-one search-toggler" type="button"><span class="txt btn-txt">Kiểm tra</span></button>
                             </form>
