@@ -133,7 +133,8 @@ class ManageSystemController extends AppController
                                 break;
                             }
 
-                            $params[$key]['code'] = $value['B'];
+//                            $params[$key]['code'] = $value['B'];
+                            $params[$key]['code'] = $value['I'];
                             $params[$key]['first_name'] = $value['C'];
                             $params[$key]['last_name'] = $value['D'];
                             $params[$key]['year'] = $value['E'];
