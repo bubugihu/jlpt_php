@@ -10,6 +10,9 @@ class CustomersTable extends AppTable
     {
 
         $this->condition = ['del_flag' => UNDEL, 'active' => ACTIVE];
-
+        $this->hasOne("University",[
+            'foreignKey' => 'id',
+            'bindingKey' => 'university_id'
+        ]);
     }
 }

@@ -147,7 +147,7 @@
                                         <li><a href="#about">Về chúng tôi</a></li>
                                         <li><a href="#projects">Hướng dẫn</a></li>
                                         <li><a href="#news">Tin tức</a></li>
-                                        <li><a href="#contact">Đăng ký</a></li>
+                                        <li><a href="#subscribe">Xem SBD</a></li>
                                     </ul>
 
                                 </div>
@@ -692,7 +692,7 @@
 
     <!--Start footer area -->
     <footer class="footer-area">
-        <div class="subscribe-cotent-box">
+        <div id="subscribe" class="subscribe-cotent-box">
             <div class="container">
                 <div class="row text-right-rtl">
                     <div class="col-xl-6 col-lg-6">

@@ -144,6 +144,18 @@ class ManageSystem extends Entity
         return true;
     }
 
+    public function updateInfo($params)
+    {
+        try{
+            $list_entities = $this->model_customers->newEntities($params);
+            $this->model_customers->saveMany($list_entities);
+        }catch (\Exception $e)
+        {
+            Log::error($e->getMessage());
+            return false;
+        }
+        return true;
+    }
     public function saveList($params)
     {
         try{
@@ -189,6 +201,6 @@ class ManageSystem extends Entity
 
     public function getByRequest($condition)
     {
-        return $this->model_customers->selectList($condition);
+        return $this->model_customers->selectList($condition,['University']);
     }
 }

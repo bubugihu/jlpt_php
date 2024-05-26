@@ -6,7 +6,15 @@
             <li><a><?= strtoupper($value->level) ?></a></li>
             <li><a><?= $value->birthday_display ?> </a></li>
             <li><a><?= $value->phone ?></a></li>
-            <li><a><?= !empty($value->is_payment) ? "Đã chuyển khoản" : "Chưa chuyển khoản" ?></a></li>
+        </ul>
+        <ul class="recent-searches">
+            <li><a>Số báo danh: <?= $value->code_number ?></a></li>
+            <li><a>Trường thi: <?= $value->university->name ?></a></li>
+            <li><a>Địa chỉ trường thi: <?= $value->university->addr ?></a></li>
+            <li><a>Phòng thi: <?= $value->room ?> </a></li>
+        </ul>
+        <ul class="recent-searches">
+            <?= $value->university->iframe ?>
         </ul>
     <?php endforeach; ?>
 <?php endif; ?>

@@ -2,6 +2,7 @@
 
 namespace Jlpt\Controller;
 
+use Cake\I18n\FrozenTime;
 use Jlpt\Library\Business\ManageSystem;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 use \Jlpt\Controller\AppController;
@@ -157,6 +158,68 @@ class ManageSystemController extends AppController
 
                         }
                         if($this->business_manage_system->saveList($params))
+                        {
+                            $this->Flash->success("Successfully.");
+                        }else{
+                            $this->Flash->error(__("Failed import"));
+                        }
+                    }
+                    else
+                    {
+                        $this->Flash->error(__("Failed no data"));
+                    }
+                }
+                else
+                {
+                    $this->Flash->error(__("Failed no sheet"));
+                }
+            }
+            else
+            {
+                $this->Flash->error(__("Failed not xlsx"));
+            }
+        }
+        return $this->redirect('/jlpt/manage-system/');
+    }
+
+    public function updateUniversity()
+    {
+        if ($this->getRequest()->is('POST'))
+        {
+            $extensions = explode(".", $_FILES['file_import']['name']);
+            $result = [];
+            if ($extensions[1] == 'xlsx' || $extensions[1] == 'XLSX')
+            {
+                $file_name = $_FILES['file_import']['tmp_name'];
+                $file = new Xlsx();
+                $objPHPExcel = $file->load($file_name);
+                // Customer sheet
+                $getSheet = $objPHPExcel->getSheet(0);
+                if (!empty($getSheet))
+                {
+                    $dataInput = $getSheet->toArray(null, true, true, true);
+
+                    if (count($dataInput) > 0)
+                    {
+                        $params = [];
+                        foreach ($dataInput as $key => $value)
+                        {
+                            if($key < 4)
+                            {
+                                continue;
+                            }
+                            if($value['A'] == null)
+                            {
+                                break;
+                            }
+
+                            $params[$key]['code_number'] = $value['B'];
+                            $params[$key]['university_id'] = $value['P'];
+                            $params[$key]['room'] = $value['O'];
+                            $params[$key]['id'] = $value['A'];
+                            $params[$key]['birthday'] = FrozenTime::create($value['E'],$value['F'],$value['G'],0,0,0);
+                        }
+                        if($this->business_manage_system->updateInfo($params))
                         {
                             $this->Flash->success("Successfully.");
                         }else{

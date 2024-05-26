@@ -37,6 +37,22 @@
                                     <?= $this->Form->end(); ?>
                                 </li>
 
+                                <li class="nav-item px-1">
+                                    <label class="btn btn-outline-secondary rounded-0" for="updateCustomers">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <?= __('Update EXCEL') ?>
+                                    </label>
+                                    <?= $this->Form->create(null, [
+                                        'url' => '/jlpt/manage-system/updateUniversity',
+                                        'method' => 'post',
+                                        'id' => 'updateFile',
+                                        'class' => ['d-none'],
+                                        'enctype' => 'multipart/form-data'
+                                    ]); ?>
+                                    <input type="file" id="updateCustomers" name="file_import">
+                                    <?= $this->Form->end(); ?>
+                                </li>
+
                         </ul>
 
                         <div class="nav-end">
@@ -178,6 +194,9 @@
     $(document).ready(function() {
         $('#importCustomers').on("change", function () {
             $('#uploadFile').submit();
+        });
+        $('#updateCustomers').on("change", function () {
+            $('#updateFile').submit();
         });
     })
 

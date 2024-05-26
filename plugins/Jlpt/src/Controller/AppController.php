@@ -11,7 +11,7 @@ class AppController extends BaseController
     {
         parent::initialize();
         $controller = $this->request->getParam('controller');
-        if($controller != "Login")
+        if($controller != "Login" && $controller != "Api")
         {
             if(!empty($_COOKIE['login']))
             {
