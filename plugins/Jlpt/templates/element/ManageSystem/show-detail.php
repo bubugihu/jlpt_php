@@ -96,6 +96,23 @@
                                     <input type="text" class="form-control" value="<?php echo $data_request['exam'] ?? '' ?>" name="exam" id="exam" required>
                                 </div>
                             </div>
+                                    <div class="mb-3 row">
+                                <label class="col-3 col-form-label text-end"></label>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label class="radio-inline">
+                                                <input type="radio" id="" name="gender" value="1" <?php echo (isset($data_request['gender']) && $data_request['gender'] == ACTIVE) ? 'checked' : ''; ?>>&nbsp;<?= __('Male') ?>
+                                            </label>
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="radio-inline" style="margin-left: 30px;">
+                                                <input type="radio" id="" name="gender" value="0" <?php echo (isset($data_request['gender']) && $data_request['gender'] == INACTIVE) ? 'checked' : ''; ?>>&nbsp;<?= __('Female') ?>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="mb-3 row">
                                 <label class="col-3 col-form-label text-end"></label>
                                 <div class="col-8">
@@ -181,7 +198,7 @@
                                 <label class="col-3 col-form-label text-end"><?= __('Picture Display') ?></label>
                                 <div class="col-8">
                                     <?php if(!empty($data_request['pic'])): ?>
-                                    <img src="<?= $this->Url->image("jlpt/".$data_request['pic'], ['fullBase' => true]) ?>" class="img-fluid"  width="75" height="100"/>
+                                    <img src="<?= $this->Url->image("jlpt/".$data_request['pic'], ['fullBase' => true]) ?>" class="img-fluid"  width="300" height="400"/>
                                     <?php endif; ?>
                                 </div>
                             </div>
