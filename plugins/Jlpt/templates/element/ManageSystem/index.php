@@ -57,7 +57,7 @@
 
                         <div class="nav-end">
                             <div class="nav-end">
-                                <form class="form-filter" action="jlpt/manage-system/" method="get">
+                                <form class="form-filter" action="/jlpt/manage-system/" method="get">
                                     <ul class="nav nav-pills">
                                         <li class="nav-item">
                                             <select name="key_write" class="form-select" id="key_write" >
