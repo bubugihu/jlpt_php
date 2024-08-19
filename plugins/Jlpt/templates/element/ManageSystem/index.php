@@ -81,6 +81,13 @@
                                             </select>
                                         </li>
                                         <li class="nav-item">
+                                            <select name="key_exam" class="form-select" id="key_exam" >
+                                                <option value="" >Picture ALL</option>
+                                                <option value="2024/07" <?= (isset($_GET['key_exam']) && $_GET['key_exam'] == "2024/07") ? "selected" : "" ?> >2024/07</option>
+                                                <option value="2024/12" <?= (isset($_GET['key_exam']) && $_GET['key_exam'] == "2024/12") ? "selected" : "" ?> >2024/12</option>
+                                            </select>
+                                        </li>
+                                        <li class="nav-item">
                                             <div class="bb-search">
                                                 <i class="fa fa-search"></i>
                                                 <input type="text" class="form-control" placeholder="<?= __("type") ?> ..." name="key_search" value="<?= isset($key_search) ? $key_search : ''; ?>" />
