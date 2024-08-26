@@ -16,7 +16,7 @@
                                 </li>
 
                                 <li class="nav-item px-1">
-                                    <a id="exportExcelBtn" class="btn btn-outline-secondary rounded-0" href="/manage-system/export">
+                                    <a id="exportExcelBtn" class="btn btn-outline-secondary rounded-0" href="/jlpt/manage-system/export">
                                         <i class="fa-solid fa-file-export"></i>
                                         <?= __("Export EXCEL") ?>
                                     </a>
