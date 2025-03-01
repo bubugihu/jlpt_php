@@ -50,11 +50,7 @@ class PagesController extends AppController
     {
         parent::initialize();
         $this->business_manage_system = new ManageSystem();
-        if (!isset($base_url) || strlen($base_url) == 0)
-        {
-            $base_url =  $this->request->getAttribute("webroot");
-        }
-        $this->set('base_url',$base_url);
+        $this->set('base_url',BASE_URL . "webroot");
     }
     public function index()
     {
