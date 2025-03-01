@@ -6,6 +6,7 @@ use Cake\Log\Log;
 use Cake\I18n\FrozenTime;
 class ManageSystem extends Entity
 {
+    public $model_customers;
     public function __construct()
     {
         parent::__construct();
@@ -16,7 +17,7 @@ class ManageSystem extends Entity
     {
         return $this->model_customers->selectOne(['id'=>$id]);
     }
-    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam,  $page, $export)
+    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam = "",  $page = 1, $export = false)
     {
         $condition = [
             'is_write' => $key_write,
