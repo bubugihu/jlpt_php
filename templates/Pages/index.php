@@ -1,120 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Năng Lực Nhật Ngữ JLPT TPHCM</title>
-    <meta content="Đăng ký JLPT TPHCM" name="description" />
-    <meta content="jlpt, tphcm" name="keywords" />
-    <meta property="og:title" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
-    <meta property="og:type" content="Website" />
-    <meta property="og:url" content="https://nanglucnhatngu-jlpt.online/" />
-    <meta property="og:description" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
-    <meta property="og:image" content="https://nanglucnhatngu-jlpt.online/assets/images/about/logo.png">
-    <meta property="og:image:width" content="550">
-    <meta property="og:image:height" content="420">
-    <!-- responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- For IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/custom-animate.css">
-    <link rel="stylesheet" href="assets/css/fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/imp.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/rtl.css">
-    <link rel="stylesheet" href="assets/css/scrollbar.css">
-    <link rel="stylesheet" href="assets/css/icomoon.css">
-    <link rel="stylesheet" href="assets/css/jquery.bootstrap-touchspin.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-
-    <!-- Module css -->
-    <link rel="stylesheet" href="assets/css/module-css/header-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/banner-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/about-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/blog-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/fact-counter-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/faq-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/contact-page.css">
-    <link rel="stylesheet" href="assets/css/module-css/breadcrumb-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/team-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/partner-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/testimonial-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/services-section.css">
-    <link rel="stylesheet" href="assets/css/module-css/footer-section.css">
-
-    <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css?v=2">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/images/about/logo.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/images/about/logo.png" sizes="16x16">
-    <style>
-        .follow_area{
-            display:none;
-            position: fixed;
-            z-index: 1000;
-            text-align: center;
-            right: 0 !important;
-            bottom: 8px;
-            width: 100px;
-        }
-    </style>
-</head>
-
-<body>
-<!-- Messenger Plugin chat Code -->
-<div id="fb-root"></div>
-
-<!-- Your Plugin chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "645037279298053");
-    chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            xfbml            : true,
-            version          : 'v18.0'
-        });
-    };
-
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<div class="boxed_wrapper ltr">
-
-    <!-- Preloader -->
-    <div class="loader-wrap">
-        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
-        <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>
-        <div class="layer layer-three"><span class="overlay"></span></div>
-    </div>
-
     <!-- Main header-->
     <header class="main-header header-style-three">
 
@@ -124,7 +7,7 @@
                 <div class="outer-box">
                     <div class="header-left">
                         <div class="logo">
-                            <a href="/"><img src="assets/images/about/logo.png" alt="JLPT" title=""></a>
+                            <a href="/"><img src="<?= $base_url ?>assets/images/about/logo.png" alt="JLPT" title=""></a>
                         </div>
                     </div>
 
@@ -143,11 +26,12 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 
                                     <ul class="navigation clearfix scroll-nav">
-                                        <li><a href="#banner">Trang chủ</a></li>
-                                        <li><a href="#about">Về chúng tôi</a></li>
+                                        <li><a href="/pages/create/#contact">Đăng kí</a></li>
+                                        <!-- <li><a href="#banner">Trang chủ</a></li> -->
+                                        <!-- <li><a href="#about">Về chúng tôi</a></li> -->
                                         <li><a href="#projects">Hướng dẫn</a></li>
                                         <li><a href="#news">Tin tức</a></li>
-                                        <li><a href="#subscribe">Xem SBD</a></li>
+                                        <!-- <li><a href="#subscribe">Xem SBD</a></li> -->
                                     </ul>
 
                                 </div>
@@ -171,7 +55,7 @@
                 <div class="clearfix">
                     <!--Logo-->
                     <div class="logo float-left">
-                        <a href="/" class="img-responsive"><img src="assets/images/about/logo.png" alt="jlpt" title=""></a>
+                        <a href="/" class="img-responsive"><img src="<?= $base_url ?>assets/images/about/logo.png" alt="jlpt" title=""></a>
                     </div>
                     <!--Right Col-->
                     <div class="right-col float-right">
@@ -231,15 +115,15 @@
                             <!--                            <p>Amet consectetur adipisicing elit sed do.</p>-->
                             <!--                        </div>-->
                             <div class="btns-box">
-                                <a class="btn-one" href="#contact">
+                                <a class="btn-one" href="<?= $base_url ?>pages/create/#contact">
                                     <span class="txt">Đăng ký ngay</span>
                                 </a>
                             </div>
                             <div class="round-box">
-                                <img class="zoom-fade" src="assets/images/shape/slide-round-box.png" alt="">
+                                <img class="zoom-fade" src="<?= $base_url ?>assets/images/shape/slide-round-box.png" alt="">
                             </div>
                             <div class="slide3-right-image">
-                                <img class="float-bob" src="assets/images/slides/form_jlpt.png" width="605" height="625" alt="">
+                                <img class="float-bob" src="<?= $base_url ?>assets/images/slides/form_jlpt.png" width="605" height="625" alt="">
                             </div>
                         </div>
                     </div>
@@ -249,7 +133,6 @@
         </div>
     </section>
     <!-- End Main Slider -->
-
     <!--Start About Style1 Area-->
     <section id="about" class="about-style1-area">
         <div class="container">
@@ -576,233 +459,11 @@
     </section>
     <!--End Testimonials Style2 area -->
 
-    <!--Start Main Contact Form Area-->
-    <section id="contact" class="mt-4 main-contact-form-area">
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <p>Form đăng ký</p>
-                </div>
-                <h2>Điền đầy đủ thông tin</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="contact-style1_form">
-                        <div class="contact-form">
-                            <form id="contact-form" name="contact_form" class="default-form2" action="" method="post">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập Họ và tên đệm (viet in hoa, không dấu)<span style="color: red">*</span></label>
-                                            <input type="text" name="last_name" id="last_name" value="" placeholder="NGUYEN VAN" required="">
-                                            <label id="last_name-error" class="error error-form" for="last_name">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập Tên (viet in hoa, không dấu) <span style="color: red">*</span> </label>
-                                            <input type="text" name="first_name" id="first_name" value="" placeholder="A" required="">
-                                            <label id="first_name-error" class="error error-form" for="first_name">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập cấp độ thi<span style="color: red">*</span></label>
-                                            <input type="text" name="level" id="level" value="" placeholder="N5" required="">
-                                            <label id="level-error" class="error error-form" for="level">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <labe>Nhập năm, tháng, ngày sinh<span style="color: red">*</span></labe>
-                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="2000/31/01" required="">
-                                            <label id="birthday_display-error" class="error error-form" for="birthday_display">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập quê quán<span style="color: red">*</span></label>
-                                            <input type="text" name="where_from" id="where_from" value="" placeholder="TPHCM" required="">
-                                            <label id="where_from-error" class="error error-form" for="where_from">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <labe>Nhập số đt<span style="color: red">*</span></labe>
-                                            <input type="text" name="phone" id="phone" value="" placeholder="0909113114" required="">
-                                            <label id="phone-error" class="error error-form" for="phone">This field is required.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Gửi ảnh chụp rõ mặt (ví dụ như ảnh dưới)<span style="color: red">*</span></label>
-                                            <input type="file" name="avatar" id="avatar" value="" placeholder="" required="">
-                                            <label id="avatar-error" class="error error-form" for="avatar">This field is required.</label>
-                                            <img src="assets/images/slides/chandung.jfif" class="img-fluid mt-4"  width="100" height="200"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Gửi ảnh mặt trước CCCD hoặc Hộ chiếu<span style="color: red">*</span></label>
-                                            <input type="file" name="pic" value="" id="pic" placeholder="" required="">
-                                            <label id="pic-error" class="error error-form" for="pic">This field is required.</label>
-                                            <img src="assets/images/slides/cccd.png" class="img-fluid mt-4"  width="100" height="200"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <label>Nhập số CCCD<span style="color: red">*</span></label>
-                                            <input type="text" name="cccd" id="cccd" value="" placeholder="012345678910" required="">
-                                            <label id="cccd-error" class="error error-form" for="cccd">This field is required.</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12 text-center">
-                                        <div class="input-box two">
-                                            <label>Nhập địa chỉ nhận phiếu báo thi</label>
-                                            <textarea name="addr" id="addr" placeholder="123 Điện biên phủ, quận 3, TPHCM"></textarea>
-                                        </div>
-                                        <div class="button-box">
-                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                            <button class="btn-one" id="submit_register" type="button" data-loading-text="Please wait...">
-                                                <span class="txt span_submit_register">Gửi thông tin đăng kí</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--End Main Contact Form Area-->
+   
 
 
 
-    <!--Start footer area -->
-    <footer class="footer-area">
-        <div id="subscribe" class="subscribe-cotent-box">
-            <div class="container">
-                <div class="row text-right-rtl">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="subscribe-box">
-                            <div class="inner-title">
-                                <h2>Nhập số cccd hoặc số hộ chiếu hoặc bằng lái xe đã đăng ký để kiểm tra thông tin.</h2>
-                            </div>
-                            <form class="subscribe-form" action="#">
-                                <input type="text" name="search_phone" id="search_phone" placeholder="Số cccd">
-                                <label id="search_phone-error" class="error error-form" style="display: none;color: red;" for="search_phone">This field is required.</label>
-                                <button id="btn-search" class="btn-one search-toggler" type="button"><span class="txt btn-txt">Kiểm tra</span></button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6">
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--Start Footer-->
-        <div class="footer">
-            <div class="container">
-                <div class="row text-right-rtl">
-
-                    <!--Start single footer widget-->
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div class="single-footer-widget marbtm50">
-
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                    <!--Start single footer widget-->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
-                        <div class="single-footer-widget margin__top">
-                            <div class="title">
-                                <h3>Thông tin chuyển khoản</h3>
-                            </div>
-                            <div class="footer-widget-links">
-                                <img src="assets/images/about/vcb.jpg" alt="" class="img-fluid" width="180" height="360">
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                    <!--Start single footer widget-->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                        <div class="single-footer-widget margin__top pdtop50">
-                            <div class="title">
-                                <h3>Liên Hệ</h3>
-                            </div>
-                            <div class="footer-widget-contact-info">
-                                <ul>
-                                    <li>
-                                        <div class="inner">
-                                            <div class="icon mapmarker">
-                                                <span class="flaticon-maps-and-flags"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p>Bình Thạnh<br>TPHCM</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="inner">
-                                            <div class="icon">
-                                                <span class="flaticon-microphone-black-shape"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p>Phone: <a href="tel:+84 934093001">0934093001</a></p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="inner">
-                                            <div class="icon">
-                                                <span class="flaticon-email"></span>
-                                            </div>
-                                            <div class="text">
-                                                <p><a href="https://www.facebook.com/p/N%C4%83ng-L%E1%BB%B1c-Nh%E1%BA%ADt-Ng%E1%BB%AF-JLPT-TPHCM-100062931595273/">Fanpage Năng lực Nhật Ngữ JLPT TPHCM</a></p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                </div>
-            </div>
-        </div>
-        <!--End Footer-->
-
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="bottom-inner">
-                    <div class="copyright">
-                        <p>Copyright &copy;<a href="index.html"> 2023 Bubugihu .</a> All Rights Reserved.</p>
-                    </div>
-                    <div class="footer-menu">
-                        <ul class="footer-nav">
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-    <!--End footer area-->
+    
 
 
     <!--<button class="scroll-top scroll-to-target" data-target="html">-->
@@ -811,198 +472,4 @@
 
 
 
-    <!-- search-popup -->
-    <div id="search-popup" class="search-popup">
-        <div class="close-search"><i class="icon-close"></i></div>
-        <div class="popup-inner">
-            <div class="overlay-layer"></div>
-            <div class="search-form">
-                <!--            <form method="post" action="index.html">-->
-                <!--                <div class="form-group">-->
-                <!--                    <fieldset>-->
-                <!--                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >-->
-                <!--                        <input type="submit" value="Search Now!" class="theme-btn style-four">-->
-                <!--                    </fieldset>-->
-                <!--                </div>-->
-                <!--            </form>-->
-                <h3>Search Results</h3>
-                <div id="search-results">
-                    <p>No data</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- search-popup end -->
-
-
-</div>
-<!-- Modal -->
-<div class="modal fade" id="alertModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-md modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5 text-center">Thông báo</h1>
-            </div>
-            <div class="modal-body">
-                <p id="messageAlertModal" class="text-center"></p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" data-bs-dismiss="modal" onclick="modalHide()">
-                    Close
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="follow_area">
-    <a style="text-decoration: none" href="https://m.me/645037279298053">
-        <img src="assets/images/about/messenger.png" alt="Awesome Image" width="40">
-    </a>
-</div>
-
-<script>
-    function modalAlert(message) {
-        $("#messageAlertModal").empty().append(message)
-        $("#alertModal").modal("show")
-    }
-
-    function modalHide()
-    {
-        $("#alertModal").modal("hide")
-    }
-</script>
-
-
-
-
-
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/bootstrap-select.min.js"></script>
-<script src="assets/js/isotope.js"></script>
-<script src="assets/js/jquery.countTo.js"></script>
-<script src="assets/js/jquery.easing.min.js"></script>
-<script src="assets/js/jquery.enllax.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/jquery.paroller.min.js"></script>
-<script src="assets/js/jquery-ui.js"></script>
-<script src="assets/js/knob.js"></script>
-<script src="assets/js/map-script.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/pagenav.js"></script>
-<script src="assets/js/parallax.min.js"></script>
-<script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/validation.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/color-switcher.min.js"></script>
-
-<script src="assets/js/jquery.bootstrap-touchspin.js"></script>
-<script src="assets/js/jquery.nice-select.min.js"></script>
-<script src="assets/js/tilt.jquery.js"></script>
-
-
-<script>
-    $(document).ready(function(){
-        const URL = "<?= $base_url ?>"
-        let array_form = ['first_name','last_name','level','birthday_display','where_from','phone','pic','avatar', 'cccd'];
-        function formValid()
-        {
-            let flag = true;
-
-            array_form.forEach(function(item, index){
-                if($('#'+item).val().trim().length < 1)
-                {
-                    flag = false;
-                    $('#'+item+'-error').css('display','block')
-                    $('#'+item).addClass("error")
-                }else{
-                    $('#'+item+'-error').css('display','none')
-                    $('#'+item).removeClass("error")
-                }
-            })
-
-            return flag;
-        }
-
-        function formReset()
-        {
-            $('.error-form').css('display','none')
-            $('#first_name').val("")
-            $('#last_name').val("")
-            $('#level').val("")
-            $('#birthday_display').val("")
-            $('#where_from').val("")
-            $('#phone').val("")
-            $('#pic').val("")
-            $('#avatar').val("")
-            $('#addr').text("")
-            $('#cccd').val("")
-        }
-
-        $('#submit_register').click(function(){
-            $("#contact-form").validate();
-            if(!formValid())
-            {
-                $('html, body').animate({ scrollTop: $('#contact').offset().top }, 'fast');
-                return;
-            }
-            let formData = new FormData();
-            formData.append('avatar', $('#avatar')[0].files[0]);
-            formData.append('pic', $('#pic')[0].files[0]);
-            formData.append('first_name', $('#first_name').val());
-            formData.append('last_name', $('#last_name').val());
-            formData.append('level', $('#level').val());
-            formData.append('birthday_display', $('#birthday_display').val());
-            formData.append('where_from', $('#where_from').val());
-            formData.append('phone', $('#phone').val());
-            formData.append('addr', $('#addr').val());
-            formData.append('cccd', $('#cccd').val());
-            formData.append('exam', "202412");
-
-            $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
-            $('#submit_register').prop('disabled', true)
-
-            $.ajax({
-                type: "POST",
-                data : formData,
-                processData: false,  // tell jQuery not to process the data
-                contentType: false,  // tell jQuery not to set contentType
-                // dataType: "json",
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                },
-                url: URL + "jlpt/api/create/",
-                async: false,
-                beforeSend: function(){
-                    $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
-                    $('#submit_register').prop('disabled', true)
-                },
-                success: function() {
-                    setTimeout(function() {
-                        $('.span_submit_register').text("Gửi thông tin đăng kí")
-                        $('#submit_register').prop('disabled', false)
-                        modalAlert("Đăng kí thành công. Bạn chuyển tiền nhớ chụp lại ảnh giao dịch thành công rồi gửi admin nhé. Cảm ơn bạn.")
-                        formReset()
-                    }, 3000);
-
-                },
-                error: function() {
-                    setTimeout(function() {
-                        $('.span_submit_register').text("Gửi thông tin đăng kí")
-                        $('#submit_register').prop('disabled', false)
-                        modalAlert("Đăng kí thất bại. Vui lòng liên hệ admin để được hướng dẫn thêm.")
-                    }, 3000);
-                }
-            }); //end ajax
-        });
-    })
-</script>
-<!-- thm custom script -->
-<script src="assets/js/custom.js?v=3"></script>
-</body>
-</html>
+    

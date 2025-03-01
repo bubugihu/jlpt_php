@@ -172,7 +172,7 @@
                                                     <?= htmlspecialchars($value->where_from ?? '') ?>
                                                 </div>
                                                 <div>
-                                                    <?= htmlspecialchars($value->exam_display ?? '') ?>
+                                                    <?= htmlspecialchars($value->exam ?? '') ?>
                                                 </div>
 
                                             </div>

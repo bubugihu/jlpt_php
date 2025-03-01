@@ -26,7 +26,8 @@ class LoginController extends AppController
             if($data['email'] == 'bubugihu' && $data['password'] == "Hahahuhu@123")
             {
                 setcookie("login", "bubugihu", time() + 86400, '/');
-                $this->redirect( BASE_URL .'jlpt/manage-system/');
+                // $this->redirect( BASE_URL .'jlpt/manage-system/');
+                return $this->redirect(['controller'=>"ManageSystem",'action' => 'index']);
             }
 
         }

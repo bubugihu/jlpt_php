@@ -43,7 +43,7 @@ class AppController extends Controller
     {
         parent::initialize();
 
-        $this->loadComponent('RequestHandler');
+        // $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
         $this->loadComponent('Common');
         /*
@@ -51,5 +51,10 @@ class AppController extends Controller
          * see https://book.cakephp.org/4/en/controllers/components/form-protection.html
          */
         //$this->loadComponent('FormProtection');
+        if (!isset($base_url) || strlen($base_url) == 0)
+        {
+            $base_url =  $this->request->getAttribute("webroot");
+        }
+        $this->set('base_url',$base_url);
     }
 }

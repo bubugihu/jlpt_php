@@ -694,14 +694,13 @@ if($('#search-popup').length){
         $('.btn-txt').text("Đang kiểm tra.")
         let code = $('#search_phone').val()
 
-        let URL = "https://nanglucnhatngu-jlpt.online/"
             $.ajax({
                 type: "POST",
                 data: { code: code},
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                 },
-                url: URL + "jlpt/api/search/",
+                url: LINK_URL + "pages/search/",
                 async: false,
                 beforeSend: function(){
                    $('#btn-search').prop('disabled',true)

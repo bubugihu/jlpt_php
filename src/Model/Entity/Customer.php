@@ -22,7 +22,7 @@ class Customer extends  Entity
 
     protected function _getExamDisplay()
     {
-        return substr($this->exam, 0, 4) . "/" . substr($this->exam, 4);
+        return $this->exam;
     }
     /**
      * Des: Get Birthday

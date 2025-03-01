@@ -3,7 +3,7 @@
 namespace Jlpt\Library\Business;
 
 use Cake\Log\Log;
-
+use Cake\I18n\FrozenTime;
 class ManageSystem extends Entity
 {
     public function __construct()
@@ -103,8 +103,8 @@ class ManageSystem extends Entity
                 $pic = $this->upload_image($file,"avatar", $params, "avatar");
                 $params['avatar'] = $pic;
             }
-
-            $params['code'] = $params['phone'] . substr($params['cccd'], -3);
+            $new_time = new FrozenTime();
+            $params['code'] = $params['exam'] . $new_time->format("YmdHis");
             $params['del_flag'] = UNDEL;
             $new = $this->model_customers->newEntity($params);
             $new = $this->model_customers->save($new);

@@ -2,283 +2,242 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Năng Lực Nhật Ngữ JLPT TPHCM</title>
+    <meta content="Đăng ký JLPT TPHCM" name="description" />
+    <meta content="jlpt, tphcm" name="keywords" />
+    <meta property="og:title" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://nanglucnhatngu-jlpt.site/" />
+    <meta property="og:description" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
+    <meta property="og:image" content="https://nanglucnhatngu-jlpt.site/assets/images/about/logo.png">
+    <meta property="og:image:width" content="550">
+    <meta property="og:image:height" content="420">
+    <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <title>Yeni Party</title>
-    <meta content="Yeni" name="description">
-    <meta content="yeni, bong bong" name="keywords">
-    <meta property="og:title" content="Yeni">
-    <meta property="og:type" content="Website">
-    <meta property="og:url" content="https://yeniparty.com/">
-    <meta property="og:description" content="Yeni party Phụ kiện trang trí Sinh Nhật">
-    <meta property="og:image" content="<?= BASE_URL . 'image/yeni_logo.jpg' ?>"/>
-    <link rel="icon" type="image/x-icon" href="<?= BASE_URL . 'image/yeni_logo.jpg' ?>">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/animate.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/aos.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/custom-animate.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/flaticon.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/imp.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/owl.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/rtl.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/scrollbar.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/icomoon.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/jquery.bootstrap-touchspin.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/nice-select.css">
 
-    <!-- CSS -->
-    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/plugins/select2/dist/css/select2.min.css" rel="stylesheet">
-    <link href="<?= BASE_URL ?>plugins/image-uploader/dist/image-uploader.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/bootstrap-select/bootstrap-select.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/icheck-material/css/icheck-material.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= BASE_URL ?>css/print.css" media="print">
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/jquery-ui/jquery-ui.min.css">
+    <!-- Module css -->
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/header-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/banner-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/about-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/blog-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/fact-counter-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/faq-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/contact-page.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/breadcrumb-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/team-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/partner-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/testimonial-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/services-section.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/module-css/footer-section.css">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/common.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>css/styles.css?v=1">
+    <link href="<?= $base_url ?>assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= $base_url ?>assets/css/responsive.css?v=2">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="<?= $base_url ?>assets/images/about/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?= $base_url ?>assets/images/about/logo.png" sizes="16x16">
+    <style>
+        .follow_area{
+            display:none;
+            position: fixed;
+            z-index: 1000;
+            text-align: center;
+            right: 0 !important;
+            bottom: 8px;
+            width: 100px;
+        }
+    </style>
 
+<script src="<?= $base_url ?>assets/js/jquery.js"></script>
+<script src="<?= $base_url ?>assets/js/aos.js"></script>
+<script src="<?= $base_url ?>assets/js/appear.js"></script>
+<script src="<?= $base_url ?>assets/js/bootstrap.bundle.min.js"></script>
+<script src="<?= $base_url ?>assets/js/bootstrap-select.min.js"></script>
+<script src="<?= $base_url ?>assets/js/isotope.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.countTo.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.easing.min.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.enllax.min.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.fancybox.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.paroller.min.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery-ui.js"></script>
+<script src="<?= $base_url ?>assets/js/knob.js"></script>
+<script src="<?= $base_url ?>assets/js/map-script.js"></script>
+<script src="<?= $base_url ?>assets/js/owl.js"></script>
+<script src="<?= $base_url ?>assets/js/pagenav.js"></script>
+<script src="<?= $base_url ?>assets/js/parallax.min.js"></script>
+<script src="<?= $base_url ?>assets/js/scrollbar.js"></script>
+<script src="<?= $base_url ?>assets/js/TweenMax.min.js"></script>
+<script src="<?= $base_url ?>assets/js/validation.js"></script>
+<script src="<?= $base_url ?>assets/js/wow.js"></script>
+<script src="<?= $base_url ?>assets/js/color-switcher.min.js"></script>
 
-    <script src="<?= BASE_URL ?>js/jquery/jquery-3.6.0.min.js"></script>
-    <script src="<?= BASE_URL ?>plugins/jquery-ui/jquery-ui.min.js"></script>
-    <script src="<?= BASE_URL ?>js/jquery/jquery-validation-1.19.4/dist/jquery.validate.js"></script>
-    <script src="<?= BASE_URL ?>plugins/popper/popper.min.js"></script>
-    <script src="<?= BASE_URL ?>plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="<?= BASE_URL ?>plugins/bootstrap-select/bootstrap-select.min.js"></script>
-    <script src="<?= BASE_URL ?>plugins/ckeditor/ckeditor.js"></script>
-    <script src="<?= BASE_URL ?>plugins/select2/dist/js/select2.min.js"></script>
-    <script src="<?= BASE_URL ?>plugins/image-uploader/src/image-uploader.js"></script>
-    <script src="<?= BASE_URL ?>plugins/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="<?= BASE_URL ?>plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-
-    <!-- Pusher -->
-    <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
-    <?= $this->fetch('css'); ?>
-</head>
+<script src="<?= $base_url ?>assets/js/jquery.bootstrap-touchspin.js"></script>
+<script src="<?= $base_url ?>assets/js/jquery.nice-select.min.js"></script>
+<script src="<?= $base_url ?>assets/js/tilt.jquery.js"></script>
 <script>
-    // Common
-    const FORMAT_DATE = "<?= DATE_FORMAT_JS ?>"
-    const DEFAULT_CURRENCY_CODE = "<?= DEFAULT_CURRENCY_CODE ?>"
-
-    function gExchangeCurrency(value, currency_code_from, rate_from, currency_code_to, rate_to) {
-        if(currency_code_from === currency_code_to) return value
-
-        // Ex: Default = VND
-        // Ex: USD -> VND gExchange(1, USD, 24000, VND, 1) = 24000
-        if(currency_code_to === DEFAULT_CURRENCY_CODE) {
-            return value * rate_from
-        }
-        // Ex: VND -> USD gExchange(24000, VND, 1, USD, 24000) = 1
-        if(currency_code_from === DEFAULT_CURRENCY_CODE) {
-            return value / rate_to
-        }
-        // Ex: JPY -> USD gExchange(24000, JPY, 100, USD, 24000) = 100
-        // JPY -> VND = 2400000
-        // VND -> USD = 100
-        return (value * rate_from) / rate_to
-    }
-
-    function gParseFloat(value, default_return) {
-        if(default_return === undefined)
-            default_return = 0.0
-        value = parseFloat(value)
-        if(isNaN(value)) value = default_return
-        return value
-    }
-
-    function gFormatDate(date) {
-        var d = new Date(date),
-            month = '' + (d.getMonth() + 1),
-            day = '' + d.getDate(),
-            year = d.getFullYear()
-
-        if (month.length < 2)
-            month = '0' + month
-        if (day.length < 2)
-            day = '0' + day
-
-        // format m/d/y
-        return [month, day, year].join('/')
-    }
-
-    function gFormatNumber(number, decimals, dec_point, thousands_sep) {
-        number = gParseFloat(number).toFixed(decimals)
-        let nstr = number.toString()
-        nstr += ''
-        x = nstr.split('.')
-        x1 = x[0]
-        x2 = x.length > 1 ? dec_point + x[1] : ''
-        var rgx = /(\d+)(\d{3})/
-        while (rgx.test(x1))
-            x1 = x1.replace(rgx, '$1' + thousands_sep + '$2')
-
-        return x1 + x2
-    }
-    function gFormatCurrency(value, currency_code) {
-        value = gFormatNumber(value, 4, '.', ',')
-        if (currency_code === 'VND') return value + ' ' + currency_code
-        else return currency_code + ' ' + value
-    }
-
-    var spinnerBtnInnerHtml = ''
-    function gSpinnerBtnStart(element_jq) {
-        spinnerBtnInnerHtml = element_jq.html()
-        element_jq.empty()
-        element_jq.attr('disabled', 'disabled')
-        element_jq
-            .prepend('<span class="spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>')
-    }
-    function gSpinnerBtnEnd(element_jq) {
-        setTimeout(function () {
-            element_jq.empty()
-            element_jq.removeAttr('disabled')
-            element_jq.prepend(spinnerBtnInnerHtml)
-        }, 60)
-    }
-
-    function gSpinnerInputStart(element_jq) {
-        element_jq.attr('readonly', 'readonly')
-        element_jq
-            .css('background', 'url("/img/loading-input.gif") no-repeat left center')
-    }
-    function gSpinnerInputEnd(element_jq) {
-        setTimeout(function () {
-            element_jq.removeAttr('readonly')
-            element_jq.css('background', '')
-        }, 60)
-    }
-    function gEscapeHtml(text) {
-        var map = {
-            '&': '&amp;',
-            '<': '&lt;',
-            '>': '&gt;',
-            '"': '&quot;',
-            "'": '&#039;'
-        };
-
-        return text.replace(/[&<>"']/g, function(m) { return map[m]; });
-    }
-    function gDecodeHtml(str) {
-        var map =
-            {
-                '&amp;': '&',
-                '&lt;': '<',
-                '&gt;': '>',
-                '&quot;': '"',
-                '&#039;': "'"
-            };
-        return str.replace(/&amp;|&lt;|&gt;|&quot;|&#039;/g, function(m) {return map[m];});
-    }
-
-    // hide New button when main form is showing
-    function gDisplayMainForm() {
-        let blocker  = document.getElementsByClassName('form-add')[0];
-        if (blocker !== undefined) {
-            let observer = new MutationObserver(function (mutations) {
-                mutations.forEach(function (mutation) {
-                    if (mutation.attributeName !== 'style') return;
-                    let currentValue = mutation.target.style.display;
-                    if (currentValue === 'none') {
-                        document.getElementById('btn-add-form').style.display = "block";
-                    } else {
-                        document.getElementById('btn-add-form').style.display = "none";
-                    }
-
-                });
-            });
-
-            observer.observe(blocker, {attributes: true});
-        }
-    }
-    // show loading and disable element in one second
-    function gShowLoadingSaveBtnMainForm(element) {
-        $(element).addClass('disabled')
-        $(element).html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Loading...');
-        setTimeout(function() {
-            $(element).removeClass('disabled')
-            $(element).html('<i class="fa-regular fa-floppy-disk"></i> ' +
-                '<?= __("Save") ?>');
-        }, 1000);
-    }
-
-    function findCurrencyByCode(el, code) {
-        if(code === undefined)
-            code = DEFAULT_CURRENCY_CODE
-        let currency_id = el.find('option:eq(0)').val()
-        el.find('option').each(function () {
-            if($(this).text() == code) {
-                currency_id = $(this).val()
-            }
-        })
-        return currency_id
-    }
-    function gParseDate(input, format) {
-        format = (format || 'yyyy-mm-dd').toLowerCase(); // default format
-        var parts = input.match(/(\d+)/g),
-            i = 0, fmt = {};
-        // extract date-part indexes from the format
-        format.replace(/(yyyy|dd|mm)/g, function(part) { fmt[part] = i++; });
-        return new Date([parts[fmt['yyyy']], parts[fmt['mm']], parts[fmt['dd']]].filter(x => x !== undefined).join('-'));
-    }
-    $(document).ready(function() {
-        $.validator.setDefaults({
-            highlight: function(element) {
-                $(element).addClass('is-invalid');
-            },
-            unhighlight: function(element) {
-                $(element).removeClass('is-invalid');
-            },
-            errorElement: 'div',
-            errorClass: 'invalid-feedback',
-            errorPlacement: function(error, element) {
-                if(element.parent().length) {
-                    element.parent().append(error)
-                } else {
-                    error.insertAfter(element);
-                }
-            }
-        });
-
-        $.validator.addMethod("greaterThan",
-            function (value, element, params) {
-                return this.optional( element ) || isNaN(value) && isNaN(params)
-                    || (Number(value) > Number(params))
-            }, '<?= __("Must be greater than {0}.") ?>')
-
-        gDisplayMainForm();
-
-        // add effect when click save button in main form
-        $('.form-add button[type="submit"]').click(function() {
-            gShowLoadingSaveBtnMainForm(this);
-        });
-
-    });
-    jQuery.extend(jQuery.validator.messages, {
-        required: "<?= __("This field is required.") ?>",
-        number: "<?= __("Please enter a valid number.") ?>",
-        min: jQuery.validator.format("<?= __("Please enter a value greater than or equal to {0}.") ?>"),
-        max: jQuery.validator.format("<?= __("Please enter a value less than or equal to {0}.") ?>"),
-        maxlength: jQuery.validator.format("<?= __("Please enter no more than {0} characters.") ?>"),
-    });
+    const LINK_URL = "<?= $base_url ?>"
 </script>
-<body class="bg-light">
-<div id="loading-form">
-    <div class="center-loading">
-        <img src="<?php echo BASE_URL.'/img/loading.gif' ?>">
+</head>
+
+<body>
+
+<div class="boxed_wrapper ltr">
+
+    <!-- Preloader -->
+    <div class="loader-wrap">
+        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
+
+    <?php echo $this->fetch('content') ?>
+<div class="follow_area">
+    <a style="text-decoration: none" href="https://m.me/645037279298053">
+        <img src="<?= $base_url ?>assets/images/about/messenger.png" alt="Awesome Image" width="40">
+    </a>
 </div>
-<?php echo $this->element('header'); ?>
-<div class="bd-gutter bd-layout">
-    <?php echo $this->element('sidebar/index'); ?>
-    <main class="bg-white bd-main order-1">
-        <div class="bd-content">
-            <?php if (isset($permission) && !$permission && FLAG_PERMISSION) { ?>
-                <div class="notification">
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        You do not have permission to access.
+<!--Start footer area -->
+<footer class="footer-area">
+        <div id="subscribe" class="subscribe-cotent-box">
+            <div class="container">
+                <div class="row text-right-rtl">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="subscribe-box">
+                            <div class="inner-title">
+                                <h2>Nhập mã admin gửi để kiểm tra thông tin.</h2>
+                            </div>
+                            <form class="subscribe-form" action="#">
+                                <input type="text" name="search_phone" id="search_phone" placeholder="Mã số">
+                                <label id="search_phone-error" class="error error-form" style="display: none;color: red;" for="search_phone">This field is required.</label>
+                                <button id="btn-search" class="btn-one search-toggler" type="button"><span class="txt btn-txt">Kiểm tra</span></button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Start Footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row text-right-rtl">
+
+                    <!--Start single footer widget-->
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="single-footer-widget marbtm50">
+
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                    <!--Start single footer widget-->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
+                        <div class="single-footer-widget margin__top">
+                            <div class="title">
+                                <h3>Thông tin chuyển khoản</h3>
+                            </div>
+                            <div class="footer-widget-links">
+                                <img src="<?= $base_url ?>assets/images/about/vcb.png" alt="" class="img-fluid" width="354" height="360">
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                    <!--Start single footer widget-->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
+                        <div class="single-footer-widget margin__top pdtop50">
+                            <div class="title">
+                                <h3>Liên Hệ</h3>
+                            </div>
+                            <div class="footer-widget-contact-info">
+                                <ul>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon mapmarker">
+                                                <span class="flaticon-maps-and-flags"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Bình Thạnh<br>TPHCM</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <span class="flaticon-microphone-black-shape"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Phone: <a href="tel:+84 934093001">0934093001</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <span class="flaticon-email"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p><a href="https://www.facebook.com/p/N%C4%83ng-L%E1%BB%B1c-Nh%E1%BA%ADt-Ng%E1%BB%AF-JLPT-TPHCM-100062931595273/">Fanpage Năng lực Nhật Ngữ JLPT TPHCM</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                </div>
+            </div>
+        </div>
+        <!--End Footer-->
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="bottom-inner">
+                    <div class="copyright">
+                        <p>Copyright &copy;<a href="index.html"> 2023 Bubugihu .</a> All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="footer-nav">
+                        </ul>
                     </div>
                 </div>
-            <?php }
-            else {
-                echo $this->fetch('content');
-                echo $this->element('modal_alert');
-                echo $this->element('modal_confirmation');
-            }?>
+            </div>
         </div>
-    </main>
-</div>
-<?= $this->fetch('js'); ?>
+
+    </footer>
+    <!--End footer area-->
+
+
+<!-- thm custom script -->
+<script src="<?= $base_url ?>assets/js/custom.js?v=3"></script>
 </body>
 </html>
