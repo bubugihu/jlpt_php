@@ -384,38 +384,38 @@
                             <div class="single-testimonials-style1">
                                 <div class="client-info">
                                     <div class="title-box">
-                                        <h3>Mở đăng kí JLPT 2024/07</h3>
+                                        <h3>Mở đăng kí JLPT 2025/07</h3>
                                     </div>
                                 </div>
                                 <div class="text">
-                                    <p>Kết thúc đăng kí là 25/03/2024 nhé</p>
-                                    <div class="date-box"><p>Thu, 29 Feb, 2024</p></div>
+                                    <p>Kết thúc đăng kí là  nhé</p>
+                                    <div class="date-box"><p>Fri, 28 Feb, 202</p></div>
                                 </div>
                             </div>
                             <!--Start Single Testimonials Style1-->
                             <div class="single-testimonials-style1">
                                 <div class="client-info">
                                     <div class="title-box">
-                                        <h3>Kết thúc đăng ký nhận chứng chỉ hộ JLPT 2023/12</h3>
+                                        <h3>Kết thúc đăng ký nhận chứng chỉ hộ JLPT 2024/12</h3>
                                         <!--                                    <span>30/11/2023</span>-->
                                     </div>
                                 </div>
                                 <div class="text">
                                     <p>Giữa tháng 3 admin sẽ gửi chứng chỉ nhé</p>
-                                    <div class="date-box"><p>Thu, 29 Feb, 2024</p></div>
+                                    <div class="date-box"><p>Fri, 28 Feb, 2025</p></div>
                                 </div>
                             </div>
                             <!--Start Single Testimonials Style1-->
                             <div class="single-testimonials-style1">
                                 <div class="client-info">
                                     <div class="title-box">
-                                        <h3>Kết thúc đăng ký thi JLPT 2023/12</h3>
+                                        <h3>Kết thúc đăng ký thi JLPT 2024/12</h3>
                                         <!--                                    <span>30/11/2023</span>-->
                                     </div>
                                 </div>
                                 <div class="text">
                                     <p>Admin đang liên hệ từng bạn để gửi phiếu báo dự thi về nhà</p>
-                                    <div class="date-box"><p>Thu, 9 Aug, 2023</p></div>
+                                    <div class="date-box"><p>Thu, 9 Aug, 2024</p></div>
                                 </div>
                             </div>
                             <!--End Single Testimonials Style1-->
@@ -424,13 +424,13 @@
                             <div class="single-testimonials-style1">
                                 <div class="client-info">
                                     <div class="title-box">
-                                        <h3>Về việc nhận phiếu báo dự thi JLPT 2023/12</h3>
+                                        <h3>Về việc nhận phiếu báo dự thi JLPT 2024/12</h3>
                                         <!--                                    <span>30/11/2023</span>-->
                                     </div>
                                 </div>
                                 <div class="text">
                                     <p>Admin đang liên hệ từng bạn để gửi phiếu báo dự thi về nhà</p>
-                                    <div class="date-box"><p>Wed, 6 Nov, 2023</p></div>
+                                    <div class="date-box"><p>Wed, 6 Nov, 2024</p></div>
                                 </div>
                             </div>
                             <!--End Single Testimonials Style1-->
@@ -439,13 +439,13 @@
                             <div class="single-testimonials-style1">
                                 <div class="client-info">
                                     <div class="title-box">
-                                        <h3>Chuẩn bị dự thi JLPT 2023/12</h3>
+                                        <h3>Chuẩn bị dự thi JLPT 2024/12</h3>
                                         <!--                                    <span>30/11/2023</span>-->
                                     </div>
                                 </div>
                                 <div class="text">
-                                    <p>Các bạn có mặt sớm trước 8h ngày chủ nhật, 3/12/2023 nhé.</p>
-                                    <div class="date-box"><p>Fri, 1 Dec, 2023</p></div>
+                                    <p>Các bạn có mặt sớm trước 8h ngày chủ nhật, 1/12/2024 nhé.</p>
+                                    <div class="date-box"><p>Fri, 1 Dec, 2024</p></div>
                                 </div>
                             </div>
                             <!--End Single Testimonials Style1-->
