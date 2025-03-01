@@ -53,3 +53,4 @@ nbproject/*
 yarn-debug.log
 yarn-error.log
 /webroot/.htaccess
+.htaccess
