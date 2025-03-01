@@ -5,6 +5,7 @@
 /logs/*
 /tmp/*
 /vendor
+/vendor_backup
 composer.lock
 # OS generated files #
 ######################
