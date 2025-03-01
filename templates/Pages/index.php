@@ -141,7 +141,7 @@
                     <div class="about-style1__image1 martop0">
                         <div class="inner wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                             <a href="https://www.facebook.com/p/N%C4%83ng-L%E1%BB%B1c-Nh%E1%BA%ADt-Ng%E1%BB%AF-JLPT-TPHCM-100062931595273/">
-                                <img src="assets/images/about/jlpt_2.jpg" alt="">
+                                <img src="<?= $base_url ?>assets/images/about/jlpt_2.jpg" alt="">
                             </a>
                         </div>
                         <!--                    <div class="content-box wow zoomIn" data-wow-delay="1200ms" data-wow-duration="2500ms">-->
@@ -225,9 +225,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic1.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic1.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic1.png">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="<?= $base_url ?>assets/images/slides/pic1.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -248,9 +248,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic2.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic2.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic2.png">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="<?= $base_url ?>assets/images/slides/pic2.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -271,9 +271,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic3.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic3.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic3.png">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="<?= $base_url ?>assets/images/slides/pic3.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -294,9 +294,9 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic4.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic4.png" alt="Awesome Image">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/images/slides/pic4.png">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="<?= $base_url ?>assets/images/slides/pic4.png">
                                         <i class="flaticon-plus"></i>
                                     </a>
                                 </div>
@@ -317,7 +317,7 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic5.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic5.png" alt="Awesome Image">
                                 <div class="zoom-button">
                                     <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg">
                                         <i class="flaticon-plus"></i>
@@ -340,7 +340,7 @@
                     <div class="single-project-item">
                         <div class="img-holder">
                             <div class="inner">
-                                <img src="assets/images/slides/pic6.png" alt="Awesome Image">
+                                <img src="<?= $base_url ?>assets/images/slides/pic6.png" alt="Awesome Image">
                                 <div class="zoom-button">
                                     <a class="lightbox-image" data-fancybox="gallery" href="https://mehedi.asiandevelopers.com/hoppex/assets/images/portfolio/project-v2-4.jpg">
                                         <i class="flaticon-plus"></i>
