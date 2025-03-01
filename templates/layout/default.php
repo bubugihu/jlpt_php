@@ -16,8 +16,8 @@
     <link rel="icon" type="image/x-icon" href="<?= BASE_URL . 'image/yeni_logo.jpg' ?>">
 
     <!-- CSS -->
-    <link href="<?= BASE_URL ?>plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= BASE_URL ?>plugins/select2/dist/css/select2.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/plugins/select2/dist/css/select2.min.css" rel="stylesheet">
     <link href="<?= BASE_URL ?>plugins/image-uploader/dist/image-uploader.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= BASE_URL ?>plugins/bootstrap-select/bootstrap-select.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>plugins/icheck-material/css/icheck-material.min.css">

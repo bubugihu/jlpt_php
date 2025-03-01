@@ -129,10 +129,10 @@
                                             <div class="css-table-row-input table-striped">
                                                 <div class="action-col">
                                                     <div class="d-flex justify-content-center">
-                                                            <a href="view/<?= $value->id . $this->Format->renderParameterURL() ?>" class="view" title="View">
+                                                            <a href="/jlpt/manage-system/view/<?= $value->id . $this->Format->renderParameterURL() ?>" class="view" title="View">
                                                                 <i class="fa fa-eye"></i>
                                                             </a>
-                                                        <a href="delete/<?= $value->id . $this->Format->renderParameterURL() ?>" onclick="return confirm('Are you sure?');" class="delete" title="View">
+                                                        <a href="/jlpt/manage-system/delete/<?= $value->id . $this->Format->renderParameterURL() ?>" onclick="return confirm('Are you sure?');" class="delete" title="View">
                                                             <i class="fa fa-trash"></i>
                                                         </a>
                                                     </div>

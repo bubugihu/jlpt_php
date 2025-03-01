@@ -1,7 +1,7 @@
 <div class="form-add" id="form-add-project" >
     <?= $this->Form->create(null, [
         'url' => [
-            'controller' => '/jlpt/ManageSystem',
+            'controller' => '/manage-system/',
             'action' => 'index'
         ],
         'method' => 'post',
