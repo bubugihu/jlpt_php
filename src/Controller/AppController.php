@@ -55,6 +55,8 @@ class AppController extends Controller
         {
             $base_url =  $this->request->getAttribute("webroot");
         }
+        if(BASE_URL !== "localhost:8080/")
+            $base_url = BASE_URL . "webroot" . DS;
         $this->set('base_url',$base_url);
     }
 }

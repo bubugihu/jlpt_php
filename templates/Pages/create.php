@@ -108,7 +108,7 @@
 
             </div>
         </div>
-    </section>
+</section>
     <!--End Main Contact Form Area-->
     <!-- search-popup -->
     <div id="search-popup" class="search-popup">
@@ -132,9 +132,6 @@
         </div>
     </div>
     <!-- search-popup end -->
-
-
-</div>
 <!-- Modal -->
 <div class="modal fade" id="alertModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-md modal-dialog-centered">

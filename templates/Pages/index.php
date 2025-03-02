@@ -389,7 +389,7 @@
                                 </div>
                                 <div class="text">
                                     <p>Kết thúc đăng kí là  nhé</p>
-                                    <div class="date-box"><p>Fri, 28 Feb, 202</p></div>
+                                    <div class="date-box"><p>Fri, 28 Feb, 2025</p></div>
                                 </div>
                             </div>
                             <!--Start Single Testimonials Style1-->
