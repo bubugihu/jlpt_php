@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Năng Lực Nhật Ngữ JLPT TPHCM</title>
-    <meta content="Đăng ký JLPT TPHCM" name="description" />
-    <meta content="jlpt, tphcm" name="keywords" />
-    <meta property="og:title" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
+    <meta content="Đăng ký thi JLPT tại TPHCM - Thông tin kỳ thi năng lực Nhật ngữ, lịch thi, học phí và cách đăng ký chi tiết." name="description" />
+    <meta content="jlpt, tphcm, năng lực nhật ngữ, kỳ thi jlpt, học tiếng nhật" name="keywords" />
+    <meta property="og:title" content="Đăng Ký Thi JLPT tại TPHCM - Năng Lực Nhật Ngữ" />
     <meta property="og:type" content="Website" />
     <meta property="og:url" content="https://nanglucnhatngu-jlpt.site/" />
-    <meta property="og:description" content="Năng Lực Nhật Ngữ JLPT TPHCM" />
+    <meta property="og:description" content="Đăng ký thi JLPT tại TPHCM dễ dàng. Tìm hiểu lịch thi, học phí và mẹo ôn luyện!" />
     <meta property="og:image" content="https://nanglucnhatngu-jlpt.site/assets/images/about/logo.png">
     <meta property="og:image:width" content="550">
     <meta property="og:image:height" content="420">
