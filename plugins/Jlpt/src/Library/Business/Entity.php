@@ -41,7 +41,7 @@ abstract class Entity
                     {
                         unlink(WWW_ROOT . "img/jlpt/" .$img);
                     }
-                    move_uploaded_file($file['tmp_name'], WWW_ROOT . "img/jlpt/" . $params['exam'] . DS . $type . DS .$img);
+                    move_uploaded_file($file['tmp_name'], WWW_ROOT . "img/jlpt/" .$img);
 
                     return $img;
                 }
