@@ -100,7 +100,7 @@
 <script src="<?= $base_url ?>assets/js/jquery.nice-select.min.js"></script>
 <script src="<?= $base_url ?>assets/js/tilt.jquery.js"></script>
 <script>
-    const LINK_URL = "<?= $base_url ?>"
+    const LINK_URL = "<?= $base_url_form ?>"
 </script>
 </head>
 

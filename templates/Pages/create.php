@@ -165,7 +165,7 @@
 
 <script>
     $(document).ready(function(){
-        const URL = "<?= $base_url ?>"
+        const URL = "<?= $base_url_form ?>"
         let array_form = ['first_name','last_name','level','birthday_display','where_from','phone','pic','avatar', 'cccd'];
         function formValid()
         {

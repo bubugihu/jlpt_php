@@ -57,6 +57,7 @@ class PagesController extends AppController
         if(BASE_URL !== "localhost:8080/")
             $base_url = BASE_URL . "webroot" . DS;
         $this->set('base_url',$base_url);
+        $this->set('base_url_form',BASE_URL);
     }
     public function index()
     {
