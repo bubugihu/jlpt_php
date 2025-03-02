@@ -36,7 +36,7 @@ abstract class Entity
                     if (!file_exists('img/jlpt')) {
                         mkdir('img/jlpt', 0777, true);
                     }
-                    $img = strtoupper($params['level']) . "_" . $this->formatName($params) . "_" . $type . "_" . $this->randomString() . "." . $ext;
+                    $img = $params['level'] . DS . $type . DS . strtoupper($params['level']) . "_" . $this->formatName($params) . "_" . $type . "_" . $this->randomString() . "." . $ext;
                     if(file_exists(WWW_ROOT . "img/" .$img))
                     {
                         unlink(WWW_ROOT . "img/jlpt/" .$img);
