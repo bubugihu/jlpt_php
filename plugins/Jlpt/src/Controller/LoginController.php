@@ -11,7 +11,7 @@ class LoginController extends AppController
         if(!empty($_COOKIE['login']))
         {
             setcookie("login", $_COOKIE['login'], time() + 86400, '/');
-            $this->redirect( BASE_URL .'jlpt/manage-system/');
+            $this->redirect('jlpt/manage-system/');
         }
     }
 

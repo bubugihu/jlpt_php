@@ -36,6 +36,12 @@ abstract class Entity
                     if (!file_exists('img/jlpt' . DS .$params['exam'])) {
                         mkdir('img/jlpt' . DS . $params['exam'], 0777, true);
                     }
+                    if (!file_exists('img/jlpt' . DS .$params['exam'] . DS . $type)) {
+                        mkdir('img/jlpt' . DS . $params['exam'] . DS . $type, 0777, true);
+                    }
+                    if (!file_exists('img/jlpt' . DS .$params['exam'] . DS . $type)) {
+                        mkdir('img/jlpt' . DS . $params['exam'] . DS . $type, 0777, true);
+                    }
                     $img =  strtoupper($params['level']) . "_" . $this->formatName($params) . "_" . $type . "_" . $this->randomString() . "." . $ext;
                     if(file_exists(WWW_ROOT . "img/" .$img))
                     {

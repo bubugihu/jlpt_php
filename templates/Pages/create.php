@@ -233,7 +233,7 @@
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                 },
-                url: URL + "pages/create/",
+                url: "create/",
                 async: false,
                 beforeSend: function(){
                     $('.span_submit_register').text("Đang gửi thông tin, vui lòng đợi...")
