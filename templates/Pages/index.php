@@ -26,7 +26,7 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 
                                     <ul class="navigation clearfix scroll-nav">
-                                        <li><a href="/pages/create">Đăng kí</a></li>
+                                        <li><a target="_blank" href="/pages/create">Đăng kí</a></li>
                                         <!-- <li><a href="#banner">Trang chủ</a></li> -->
                                         <!-- <li><a href="#about">Về chúng tôi</a></li> -->
                                         <li><a href="#projects">Hướng dẫn</a></li>
@@ -115,7 +115,7 @@
                             <!--                            <p>Amet consectetur adipisicing elit sed do.</p>-->
                             <!--                        </div>-->
                             <div class="btns-box">
-                                <a class="btn-one" href="<?= $base_url ?>pages/create">
+                                <a target="_blank" class="btn-one" href="/pages/create">
                                     <span class="txt">Đăng ký ngay</span>
                                 </a>
                             </div>

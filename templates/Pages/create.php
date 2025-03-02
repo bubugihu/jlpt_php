@@ -39,7 +39,7 @@
                                     <div class="col-xl-6">
                                         <div class="input-box">
                                             <label>Nhập năm, tháng, ngày sinh<span style="color: red">*</span></label>
-                                            <input type="text" name="birthday_display" id="birthday_display" value="" placeholder="2000/01/31" required="">
+                                            <input type="date" name="birthday_display" id="birthday_display" value="" placeholder="2000/01/31" required="">
                                             <label id="birthday_display-error" class="error error-form" for="birthday_display">This field is required.</label>
                                         </div>
                                     </div>

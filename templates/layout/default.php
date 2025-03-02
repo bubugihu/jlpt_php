@@ -62,7 +62,7 @@
     <link rel="icon" type="image/png" href="<?= $base_url ?>assets/images/about/logo.png" sizes="16x16">
     <style>
         .follow_area{
-            display:none;
+            display:block;
             position: fixed;
             z-index: 1000;
             text-align: center;
@@ -118,7 +118,7 @@
 
     <?php echo $this->fetch('content') ?>
 <div class="follow_area">
-    <a style="text-decoration: none" href="https://m.me/645037279298053">
+    <a target="_blank" style="text-decoration: none" href="https://m.me/645037279298053">
         <img src="<?= $base_url ?>assets/images/about/messenger.png" alt="Awesome Image" width="40">
     </a>
 </div>
