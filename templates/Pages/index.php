@@ -198,7 +198,7 @@
                         <h2 class="paroller">Dễ dàng đăng ký</h2>
                         <h5 class="paroller">Chỉ cần ngồi tại nhà, bạn vẫn có thể đăng ký thi JLPT, nhận phiếu báo thi, sau đó đi thi và nhận chứng chỉ</h5>
                         <div class="btns-box paroller">
-                            <a class="btn-one" href="#contact">
+                            <a target="_blank"  class="btn-one" href="pages/create">
                                 <span class="txt">Đăng ký ngay</span>
                             </a>
                         </div>
