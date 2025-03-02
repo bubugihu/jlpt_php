@@ -36,12 +36,12 @@ abstract class Entity
                     if (!file_exists('img/jlpt' . DS .$params['exam'])) {
                         mkdir('img/jlpt' . DS . $params['exam'], 0777, true);
                     }
-                    $img = $params['exam'] . DS . $type . DS . strtoupper($params['level']) . "_" . $this->formatName($params) . "_" . $type . "_" . $this->randomString() . "." . $ext;
+                    $img =  strtoupper($params['level']) . "_" . $this->formatName($params) . "_" . $type . "_" . $this->randomString() . "." . $ext;
                     if(file_exists(WWW_ROOT . "img/" .$img))
                     {
                         unlink(WWW_ROOT . "img/jlpt/" .$img);
                     }
-                    move_uploaded_file($file['tmp_name'], WWW_ROOT . "img/jlpt/" .$img);
+                    move_uploaded_file($file['tmp_name'], WWW_ROOT . "img/jlpt/" .$params['exam'] . DS . $type . DS .$img);
 
                     return $img;
                 }
