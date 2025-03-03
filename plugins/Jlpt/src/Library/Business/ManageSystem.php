@@ -4,6 +4,8 @@ namespace Jlpt\Library\Business;
 
 use Cake\Log\Log;
 use Cake\I18n\FrozenTime;
+use Cake\Mailer\Email;
+
 class ManageSystem extends Entity
 {
     public $model_customers;
@@ -109,6 +111,17 @@ class ManageSystem extends Entity
             $params['del_flag'] = UNDEL;
             $new = $this->model_customers->newEntity($params);
             $new = $this->model_customers->save($new);
+
+            //sendmail
+            $email = new Email('default');
+            $email->setTransport('default');
+
+            $result = $email
+                ->setFrom(['nanglucnhatngu.jlpt.hcm@gmail.com' => 'nanglucnhatngu.jlpt.hcm@gmail.com'])
+                ->setTo('nanglucnhatngu.jlpt.hcm@gmail.com')
+                ->setEmailFormat('text')
+                ->setSubject('Có đăng ký mới')
+                ->send('Có đăng kí mới, check mail đi');
         }catch (\Exception $e)
         {
             Log::error($e->getMessage());
