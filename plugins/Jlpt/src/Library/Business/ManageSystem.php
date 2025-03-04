@@ -19,7 +19,7 @@ class ManageSystem extends Entity
     {
         return $this->model_customers->selectOne(['id'=>$id]);
     }
-    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam = "",  $page = 1, $export = false)
+    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam = "25A",  $page = 1, $export = false)
     {
         $condition = [
             'is_write' => $key_write,
