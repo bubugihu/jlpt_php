@@ -35,7 +35,7 @@ class Customer extends  Entity
 
     protected function _getGenderDisplay()
     {
-        if($this->gender == 0)
+        if($this->gender == ACTIVE)
         {
             return "NAM";
         }

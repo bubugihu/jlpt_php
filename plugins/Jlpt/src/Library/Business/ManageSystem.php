@@ -77,7 +77,7 @@ class ManageSystem extends Entity
 
             $id = $params['id'];
             unset($params['id']);
-            $params['code'] = $params['phone'] . substr($params['cccd'], -3);
+            // $params['code'] = $params['phone'] . substr($params['cccd'], -3);
             $this->model_customers->updateAll($params, ['id'=>$id]);
 
             if(!empty($params['is_write']) && !empty($params['exam']))
