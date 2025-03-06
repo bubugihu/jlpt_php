@@ -4,6 +4,8 @@ namespace Jlpt\Library\Business;
 
 use Cake\Log\Log;
 use Cake\I18n\FrozenTime;
+use Cake\Mailer\Email;
+
 class ManageSystem extends Entity
 {
     public $model_customers;
@@ -17,7 +19,7 @@ class ManageSystem extends Entity
     {
         return $this->model_customers->selectOne(['id'=>$id]);
     }
-    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam = "",  $page = 1, $export = false)
+    public function getList($key_search = "", $key_write = 0, $key_payment = 0, $key_exam = "25A",  $page = 1, $export = false)
     {
         $condition = [
             'is_write' => $key_write,
@@ -75,7 +77,7 @@ class ManageSystem extends Entity
 
             $id = $params['id'];
             unset($params['id']);
-            $params['code'] = $params['phone'] . substr($params['cccd'], -3);
+            // $params['code'] = $params['phone'] . substr($params['cccd'], -3);
             $this->model_customers->updateAll($params, ['id'=>$id]);
 
             if(!empty($params['is_write']) && !empty($params['exam']))
@@ -109,6 +111,17 @@ class ManageSystem extends Entity
             $params['del_flag'] = UNDEL;
             $new = $this->model_customers->newEntity($params);
             $new = $this->model_customers->save($new);
+
+            //sendmail
+            $email = new Email('default');
+            $email->setTransport('default');
+
+            $result = $email
+                ->setFrom(['nanglucnhatngu.jlpt.hcm@gmail.com' => 'nanglucnhatngu.jlpt.hcm@gmail.com'])
+                ->setTo('nanglucnhatngu.jlpt.hcm@gmail.com')
+                ->setEmailFormat('text')
+                ->setSubject('Có đăng ký mới')
+                ->send('Có đăng kí mới, check mail đi');
         }catch (\Exception $e)
         {
             Log::error($e->getMessage());

@@ -33,7 +33,7 @@ class ManageSystemController extends AppController
         $arr['key_search'] = $key_search = $_GET['key_search'] ?? "";
         $arr['key_write'] = $key_write = $_GET['key_write'] ?? "";
         $arr['key_payment'] = $key_payment = $_GET['key_payment'] ?? "";
-        $arr['key_exam'] = $key_exam = !empty($_GET['key_exam']) ?  urldecode($_GET['key_exam']) :  "";
+        $arr['key_exam'] = $key_exam = !empty($_GET['key_exam']) ?  urldecode($_GET['key_exam']) :  "25A";
         $page = (isset($_GET['page']) && is_numeric($_GET['page'])) ? (int)trim($_GET['page']) : 1;
 
         $list_customer = $this->business_manage_system->getList($key_search, $key_write, $key_payment,$key_exam, $page, false);

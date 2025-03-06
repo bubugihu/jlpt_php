@@ -21,6 +21,7 @@ use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\Http\Response;
 use Cake\Log\Log;
+use Cake\Mailer\Email;
 use Cake\View\Exception\MissingTemplateException;
 use Yeni\Library\Business\Orders;
 use Yeni\Library\Business\Product;

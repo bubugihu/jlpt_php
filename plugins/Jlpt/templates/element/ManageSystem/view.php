@@ -92,6 +92,12 @@
                                     </div>
                                 </div>
                                 <div class="mb-3 row">
+                                <label class="col-3 col-form-label text-end"><?= __('Description') ?><span style="color: red">*</span></label>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" value="<?php echo $data_request['mail'] ?? '' ?>" name="mail" id="mail">
+                                </div>
+                            </div>
+                                <div class="mb-3 row">
                                     <label class="col-3 col-form-label text-end"></label>
                                     <div class="col-8">
                                         <div class="row">
