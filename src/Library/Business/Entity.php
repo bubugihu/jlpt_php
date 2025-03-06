@@ -6,6 +6,7 @@ use Cake\ORM\TableRegistry;
 
 abstract class Entity
 {
+    protected $table;
     /**
      * Instantinates the class
      */
@@ -62,5 +63,10 @@ abstract class Entity
         $randstring = '';
         $randstring .= $characters[rand(10, strlen($characters))];
         return $randstring;
+    }
+
+    public function selectList($condition = [],$contain = [])
+    {
+        return $this->table->find()->where($condition)->contain($contain)->all()->toList();
     }
 }

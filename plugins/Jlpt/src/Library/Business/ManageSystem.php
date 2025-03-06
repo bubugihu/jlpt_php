@@ -165,7 +165,6 @@ class ManageSystem extends Entity
         }catch (\Exception $e)
         {
             Log::error($e->getMessage());
-            dd($e->getMessage());
             return false;
         }
         return true;
