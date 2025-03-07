@@ -23,8 +23,7 @@ use Cake\Http\Response;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
 use Cake\View\Exception\MissingTemplateException;
-use Yeni\Library\Business\Orders;
-use Yeni\Library\Business\Product;
+use App\Library\Business\Cron;
 use Jlpt\Library\Business\ManageSystem;
 /**
  * Static content controller
@@ -139,5 +138,12 @@ class PagesController extends AppController
 
             return $this->response;
         }
+    }
+
+    public function getPictureDone()
+    {
+        $this->autoRender = false;
+        $cron = new Cron();
+        $cron->getCustomerPictureDone();
     }
 }

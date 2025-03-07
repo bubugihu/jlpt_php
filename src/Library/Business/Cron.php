@@ -27,7 +27,7 @@ class Cron extends Entity
         ];
 
         $list_picture = $this->selectList($condtion_picture);
-var_dump($list_picture);die;
+
         if(!empty($list_picture))
         {
             foreach($list_picture as $picture)
@@ -44,6 +44,7 @@ var_dump($list_picture);die;
                 }
             }
         }
+        echo "List Picture: " . count($list_picture); exit;
 
     }
 
