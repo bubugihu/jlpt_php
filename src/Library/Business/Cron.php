@@ -39,7 +39,7 @@ class Cron extends Entity
                     $result_copy_cccd = $this->copy_image($picture->pic,'cccd',$picture->exam);
                     if($result_copy_avatar && $result_copy_cccd)
                     {
-                        // $this->table->save($picture);
+                        $this->table->save($picture);
                     }
                 }
             }
