@@ -54,3 +54,5 @@ yarn-debug.log
 yarn-error.log
 /webroot/.htaccess
 .htaccess
+/webroot/img/*
+!/webroot/img/.gitkeep
