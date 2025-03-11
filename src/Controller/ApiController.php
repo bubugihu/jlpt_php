@@ -16,7 +16,6 @@ class ApiController extends AppController
 
     public function create()
     {
-        dd(123);
         if($this->getRequest()->is('post')) {
             $this->business_manage_system->format_birthday_BE($_POST);
             if($this->business_manage_system->create($_POST, $_FILES))

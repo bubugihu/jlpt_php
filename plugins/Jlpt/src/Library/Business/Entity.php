@@ -6,6 +6,7 @@ use Cake\ORM\TableRegistry;
 
 abstract class Entity
 {
+    public $table;
     /**
      * Instantinates the class
      */
@@ -68,5 +69,25 @@ abstract class Entity
         $randstring = '';
         $randstring .= $characters[rand(10, strlen($characters))];
         return $randstring;
+    }
+
+    protected function copy_image($file_name = "", $type = "", $exam = "")
+    {
+        if (!file_exists('img/jlpt' . DS .$exam . DS . "print" . DS . $type)) {
+            mkdir('img/jlpt' . DS . $exam . DS . "print" . DS . $type, 0777, true);
+        }
+        if(is_file(WWW_ROOT . "img/jlpt/" . $exam . DS . $type . DS .$file_name))
+        {
+            if(copy(WWW_ROOT . "img/jlpt/" . $exam . DS . $type . DS .$file_name, WWW_ROOT . "img/jlpt/" . $exam . DS . "print" . DS . $type . DS . $file_name))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public function selectList($condition = [],$contain = [])
+    {
+        return $this->table->find()->where($condition)->contain($contain)->all()->toList();
     }
 }

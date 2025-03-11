@@ -15,4 +15,5 @@ class CustomersTable extends AppTable
             'bindingKey' => 'university_id'
         ]);
     }
+
 }
