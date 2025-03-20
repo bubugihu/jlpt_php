@@ -82,7 +82,7 @@ class ManageSystem extends Entity
 
             if(!empty($params['is_write']) && !empty($params['exam']))
             {
-                $this->move_image($id);
+                // $this->move_image($id);
             }
         }catch (\Exception $e)
         {
