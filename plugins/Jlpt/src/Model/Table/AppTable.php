@@ -61,7 +61,7 @@ class AppTable extends Table
         $result = [];
 
         try {
-            $query = $this->find()->select($select)->where($condition)->order($order);
+            $query = $this->find()->select($select)->where($condition)->where(['exam'=>"25A"])->order($order);
             if (!is_null($contain)) {
                 $query->contain($contain);
             }
