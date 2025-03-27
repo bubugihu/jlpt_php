@@ -140,12 +140,14 @@ class AppTable extends Table
             return $this->find()
                 ->select($select)
                 ->where($condition)
+                ->where(['exam'=>"25A"])
                 ->contain($contain)
                 ->order($order);
         }
         return $this->find()
             ->select($select)
             ->where($condition)
+            ->where(['exam'=>"25A"])
             ->contain($contain)
             ->order($order)
             ->limit(LIMIT)
