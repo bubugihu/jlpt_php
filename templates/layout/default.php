@@ -12,6 +12,7 @@
     <meta property="og:image" content="https://nanglucnhatngu-jlpt.site/assets/images/about/logo.png">
     <meta property="og:image:width" content="550">
     <meta property="og:image:height" content="420">
+    <meta name="zalo-platform-site-verification" content="NUMb9QBgBmXNuQOfaiuA5almlYkdXcXmCJGq" />
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
