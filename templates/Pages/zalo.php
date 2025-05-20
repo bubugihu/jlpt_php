@@ -1,0 +1,2 @@
+<p><?= $user_id ?? 123345456 ?></p>
+<p><?= $user_name ?? "user_name" ?></p>

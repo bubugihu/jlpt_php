@@ -17,13 +17,16 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use Cake\Core\Configure;
+use Cake\Http\Exception\BadRequestException;
 use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\Http\Response;
+use Cake\Http\ServerRequest;
 use Cake\Log\Log;
 use Cake\Mailer\Email;
 use Cake\View\Exception\MissingTemplateException;
 use App\Library\Business\Cron;
+use Cake\Http\Client;
 use Jlpt\Library\Business\ManageSystem;
 /**
  * Static content controller
@@ -145,5 +148,75 @@ class PagesController extends AppController
         $this->autoRender = false;
         $cron = new Cron();
         $cron->getCustomerPictureDone();
+    }
+
+    public function test()
+    {
+        $codeVerifier = bin2hex(random_bytes(32));
+        $codeChallenge = rtrim(strtr(base64_encode(hash('sha256', $codeVerifier, true)), '+/', '-_'));
+        $authUrl = "https://oauth.zaloapp.com/v4/oa/permission?"
+            . "app_id=YOUR_APP_ID"
+            . "&code_challenge={$codeChallenge}"
+            . "&code_challenge_method=S256"
+            . "&redirect_uri=https://nanglucnhatngu-jlpt.site/pages/zalo";
+        $this->set('authUrl',$authUrl);
+        $session = $this->request->getSession();
+        $session->write('zalo_code_verifier', $codeVerifier);
+        $session->write('zalo_code_challenge', $codeChallenge);
+    }
+    public function zalo()
+    {
+        $request = $this->request;
+        $session = $this->request->getSession();
+
+        // 1. Lấy authorization code từ query params
+        $authorizationCode = $request->getQuery('code');
+        if (empty($authorizationCode)) {
+            throw new BadRequestException('Missing authorization code');
+        }
+
+        // 2. Lấy lại code_verifier đã lưu trong session (từ bước trước)
+        $codeVerifier = $session->read('zalo_code_verifier');
+        if (empty($codeVerifier)) {
+            throw new BadRequestException('Missing code_verifier');
+        }
+
+        // 3. Đổi authorization code lấy access token
+        $http = new Client();
+        $response = $http->post('https://oauth.zaloapp.com/v4/oa/access_token', [
+            'app_id' => '3136401485341879965',
+            'app_secret' => 'wOYTcC9BmRG8ISUKZjTm',
+            'code' => $authorizationCode,
+            'code_verifier' => $codeVerifier,
+            'grant_type' => 'authorization_code'
+        ]);
+
+        $data = $response->getJson();
+
+        $this->log('Zalo API Response: ' . json_encode($data), 'debug');
+
+        // 4. Lưu access token vào session hoặc database
+        $accessToken = $data['access_token'];
+        $session->write('zalo_access_token', $accessToken);
+
+        // 5. Lấy thông tin người dùng bằng access token
+        $userInfo = $this->getZaloUserInfo($accessToken);
+
+        // 6. Xử lý thông tin người dùng (lưu DB, đăng nhập, v.v.)
+        $this->log($userInfo['id'] . " : " .  $userInfo['name']);
+
+        // Redirect hoặc trả về view
+        $this->set('user_id',$userInfo['id']);
+        $this->set('user_name',$userInfo['name']);
+    }
+
+    private function getZaloUserInfo($accessToken) {
+        $http = new Client();
+        $response = $http->get('https://graph.zalo.me/v2.0/me', [
+            'access_token' => $accessToken,
+            'fields' => 'id,name,gender,picture'
+        ]);
+
+        return $response->getJson();
     }
 }
